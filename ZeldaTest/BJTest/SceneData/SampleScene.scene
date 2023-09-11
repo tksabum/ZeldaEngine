@@ -1,0 +1,1625 @@
+{
+    "SceneManager": {
+        "dontDestroyObjectList": {
+            "size": 0
+        },
+        "gameobjectList": {
+            "0": {
+                "GameObject": {
+                    "ID": 0,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 2,
+                                "ID_gameObject": 0,
+                                "cameraFar": 1000.0,
+                                "cameraNear": 1.0,
+                                "cameraScale": 1.0,
+                                "fieldOfView": 0.26179900765419006,
+                                "type": "Camera"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 3,
+                                "ID_gameObject": 0,
+                                "moveSpeed": 50.0,
+                                "rotateSpeed": 0.7850000262260437,
+                                "testVectorPtr": {
+                                    "size": 0
+                                },
+                                "testVectorPtr0": {
+                                    "size": 0
+                                },
+                                "testVectorSerValue": {
+                                    "size": 0
+                                },
+                                "testVectorSerValue0": {
+                                    "size": 0
+                                },
+                                "testVectorValue": {
+                                    "size": 0
+                                },
+                                "testVectorValue0": {
+                                    "size": 0
+                                },
+                                "type": "TestComponent"
+                            }
+                        },
+                        "size": 2
+                    },
+                    "layerID": 0,
+                    "name": "MainCamera",
+                    "transform": {
+                        "Component": {
+                            "ID": 1,
+                            "ID_gameObject": 0,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "1": {
+                "GameObject": {
+                    "ID": 4,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 6,
+                                "ID_gameObject": 4,
+                                "type": "DirectionalLight"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "DirectionalLight",
+                    "transform": {
+                        "Component": {
+                            "ID": 5,
+                            "ID_gameObject": 4,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 0.7912400364875793,
+                                    "x": 0.5540323853492737,
+                                    "y": 0.2120121419429779,
+                                    "z": -0.1484525203704834
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "2": {
+                "GameObject": {
+                    "ID": 7,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 9,
+                                "ID_gameObject": 7,
+                                "ID_mainAnimator": 14,
+                                "ID_subAnimator": 19,
+                                "type": "GameManager"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "GameManager",
+                    "transform": {
+                        "Component": {
+                            "ID": 8,
+                            "ID_gameObject": 7,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "3": {
+                "GameObject": {
+                    "ID": 10,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 12,
+                                "ID_gameObject": 10,
+                                "type": "ZeldaUI"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 13,
+                                "ID_gameObject": 10,
+                                "layer": 901,
+                                "materialInfo": {
+                                    "MaterialInfo": {
+                                        "color": {
+                                            "ZeldaColor": {
+                                                "alpha": 1.0,
+                                                "b": 1.0,
+                                                "g": 1.0,
+                                                "r": 1.0
+                                            }
+                                        },
+                                        "floatParams0": 0.0,
+                                        "floatParams1": 0.0,
+                                        "floatParams2": 0.0,
+                                        "floatParams3": 0.0,
+                                        "intParams0": 0,
+                                        "intParams1": 0,
+                                        "intParams2": 0,
+                                        "intParams3": 0,
+                                        "materialName": "UI",
+                                        "shaderFilePath": "..\\Resources\\Shader\\UI.hlsli",
+                                        "texture0": "",
+                                        "texture1": "",
+                                        "texture2": "",
+                                        "texture3": "",
+                                        "vec2Params0": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params1": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params2": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params3": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec4Params0": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params1": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params2": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params3": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "Image"
+                            }
+                        },
+                        "2": {
+                            "Component": {
+                                "ID": 14,
+                                "ID_gameObject": 10,
+                                "fadeInTime": 0.0,
+                                "fadeOutTime": 0.0,
+                                "isEventAnimation": false,
+                                "isLoop": false,
+                                "isRetain": true,
+                                "playSpeed": 1.0,
+                                "playWithAwake": false,
+                                "postDelay": 0.0,
+                                "preDelay": 0.0,
+                                "textureList": {
+                                    "size": 0
+                                },
+                                "type": "SpriteAnimator"
+                            }
+                        },
+                        "size": 3
+                    },
+                    "layerID": 0,
+                    "name": "CoverObject",
+                    "transform": {
+                        "Component": {
+                            "ID": 11,
+                            "ID_gameObject": 10,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1920.0,
+                                    "y": 1080.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "4": {
+                "GameObject": {
+                    "ID": 15,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 17,
+                                "ID_gameObject": 15,
+                                "type": "ZeldaUI"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 18,
+                                "ID_gameObject": 15,
+                                "layer": 900,
+                                "materialInfo": {
+                                    "MaterialInfo": {
+                                        "color": {
+                                            "ZeldaColor": {
+                                                "alpha": 1.0,
+                                                "b": 1.0,
+                                                "g": 1.0,
+                                                "r": 1.0
+                                            }
+                                        },
+                                        "floatParams0": 0.0,
+                                        "floatParams1": 0.0,
+                                        "floatParams2": 0.0,
+                                        "floatParams3": 0.0,
+                                        "intParams0": 0,
+                                        "intParams1": 0,
+                                        "intParams2": 0,
+                                        "intParams3": 0,
+                                        "materialName": "UI",
+                                        "shaderFilePath": "..\\Resources\\Shader\\UI.hlsli",
+                                        "texture0": "",
+                                        "texture1": "",
+                                        "texture2": "",
+                                        "texture3": "",
+                                        "vec2Params0": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params1": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params2": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params3": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec4Params0": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params1": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params2": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params3": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "Image"
+                            }
+                        },
+                        "2": {
+                            "Component": {
+                                "ID": 19,
+                                "ID_gameObject": 15,
+                                "fadeInTime": 0.0,
+                                "fadeOutTime": 0.0,
+                                "isEventAnimation": false,
+                                "isLoop": false,
+                                "isRetain": true,
+                                "playSpeed": 1.0,
+                                "playWithAwake": false,
+                                "postDelay": 0.0,
+                                "preDelay": 0.0,
+                                "textureList": {
+                                    "size": 0
+                                },
+                                "type": "SpriteAnimator"
+                            }
+                        },
+                        "size": 3
+                    },
+                    "layerID": 0,
+                    "name": "CoverObject",
+                    "transform": {
+                        "Component": {
+                            "ID": 16,
+                            "ID_gameObject": 15,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1920.0,
+                                    "y": 1080.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "5": {
+                "GameObject": {
+                    "ID": 20,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 22,
+                                "ID_gameObject": 20,
+                                "animationPlaySpeed": 15.0,
+                                "bossAttackCycle": 1.0,
+                                "bossFirstAttackCount": 8,
+                                "bossFirstAttackCycle": 0.10000000149011612,
+                                "centerRadius": 100.0,
+                                "centerRadiusDecrease": 20.0,
+                                "eventDelay": 1.0,
+                                "playerHandicap": 5.0,
+                                "playerHandicapDecrease": 0.10000000149011612,
+                                "playerHandicapMin": 2.0,
+                                "playerHitRate": 0.30000001192092896,
+                                "playerHitRateIncrease": 0.019999999552965164,
+                                "playerHitRateMax": 1.0,
+                                "playerNoHandicapCount": 3,
+                                "type": "Phase3EventManager"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "Phase3EventManager",
+                    "transform": {
+                        "Component": {
+                            "ID": 21,
+                            "ID_gameObject": 20,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "6": {
+                "GameObject": {
+                    "ID": 23,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 25,
+                                "ID_gameObject": 23,
+                                "colliderShape": {
+                                    "Shape": {
+                                        "indices": {
+                                            "0": 0,
+                                            "1": 2,
+                                            "10": 4,
+                                            "11": 5,
+                                            "12": 7,
+                                            "13": 0,
+                                            "14": 4,
+                                            "15": 0,
+                                            "16": 7,
+                                            "17": 3,
+                                            "18": 5,
+                                            "19": 2,
+                                            "2": 1,
+                                            "20": 6,
+                                            "21": 2,
+                                            "22": 5,
+                                            "23": 1,
+                                            "24": 3,
+                                            "25": 6,
+                                            "26": 2,
+                                            "27": 6,
+                                            "28": 3,
+                                            "29": 7,
+                                            "3": 2,
+                                            "30": 1,
+                                            "31": 4,
+                                            "32": 0,
+                                            "33": 4,
+                                            "34": 1,
+                                            "35": 5,
+                                            "4": 0,
+                                            "5": 3,
+                                            "6": 4,
+                                            "7": 6,
+                                            "8": 7,
+                                            "9": 6,
+                                            "size": 36
+                                        },
+                                        "type": "ConvexPolyhedron",
+                                        "vertices": {
+                                            "0": {
+                                                "Vector3D": {
+                                                    "x": 0.5,
+                                                    "y": 0.5,
+                                                    "z": 0.5
+                                                }
+                                            },
+                                            "1": {
+                                                "Vector3D": {
+                                                    "x": -0.5,
+                                                    "y": 0.5,
+                                                    "z": 0.5
+                                                }
+                                            },
+                                            "2": {
+                                                "Vector3D": {
+                                                    "x": -0.5,
+                                                    "y": 0.5,
+                                                    "z": -0.5
+                                                }
+                                            },
+                                            "3": {
+                                                "Vector3D": {
+                                                    "x": 0.5,
+                                                    "y": 0.5,
+                                                    "z": -0.5
+                                                }
+                                            },
+                                            "4": {
+                                                "Vector3D": {
+                                                    "x": 0.5,
+                                                    "y": -0.5,
+                                                    "z": 0.5
+                                                }
+                                            },
+                                            "5": {
+                                                "Vector3D": {
+                                                    "x": -0.5,
+                                                    "y": -0.5,
+                                                    "z": 0.5
+                                                }
+                                            },
+                                            "6": {
+                                                "Vector3D": {
+                                                    "x": -0.5,
+                                                    "y": -0.5,
+                                                    "z": -0.5
+                                                }
+                                            },
+                                            "7": {
+                                                "Vector3D": {
+                                                    "x": 0.5,
+                                                    "y": -0.5,
+                                                    "z": -0.5
+                                                }
+                                            },
+                                            "size": 8
+                                        }
+                                    }
+                                },
+                                "isTrigger": false,
+                                "type": "CubeCollider"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 26,
+                                "ID_gameObject": 23,
+                                "angularDrag": 0.10000000149011612,
+                                "freezePositionX": false,
+                                "freezePositionY": false,
+                                "freezePositionZ": false,
+                                "freezeRotationX": false,
+                                "freezeRotationY": false,
+                                "freezeRotationZ": false,
+                                "isKinematic": true,
+                                "kfriction": 0.10000000149011612,
+                                "linearDrag": 0.10000000149011612,
+                                "mass": 0.0,
+                                "restitution": 0.05000000074505806,
+                                "sfriction": 0.20000000298023224,
+                                "type": "Rigidbody",
+                                "useGravity": true
+                            }
+                        },
+                        "2": {
+                            "Component": {
+                                "ID": 27,
+                                "ID_gameObject": 23,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 0.0,
+                                                        "r": 0.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "BoundaryDebug",
+                                                "shaderFilePath": "..\\Resources\\Shader\\debug.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "BoundaryDebug"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cube",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 3
+                    },
+                    "layerID": 0,
+                    "name": "collsionTestObject002",
+                    "transform": {
+                        "Component": {
+                            "ID": 24,
+                            "ID_gameObject": 23,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": -25.0,
+                                    "y": 0.0,
+                                    "z": 150.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 500.0,
+                                    "y": 1.0,
+                                    "z": 500.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "7": {
+                "GameObject": {
+                    "ID": 28,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 30,
+                                "ID_gameObject": 28,
+                                "moveSpeed": 50.0,
+                                "rotateSpeed": 0.7850000262260437,
+                                "testVectorPtr": {
+                                    "size": 0
+                                },
+                                "testVectorPtr0": {
+                                    "size": 0
+                                },
+                                "testVectorSerValue": {
+                                    "size": 0
+                                },
+                                "testVectorSerValue0": {
+                                    "size": 0
+                                },
+                                "testVectorValue": {
+                                    "size": 0
+                                },
+                                "testVectorValue0": {
+                                    "size": 0
+                                },
+                                "type": "TestComponent"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 31,
+                                "ID_gameObject": 28,
+                                "limitLine": -500.0,
+                                "type": "TestComponent2"
+                            }
+                        },
+                        "2": {
+                            "Component": {
+                                "ID": 32,
+                                "ID_gameObject": 28,
+                                "type": "Collider2D",
+                                "vertices": {
+                                    "0": {
+                                        "Vector2D": {
+                                            "x": 0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "1": {
+                                        "Vector2D": {
+                                            "x": 0.5,
+                                            "y": -0.5
+                                        }
+                                    },
+                                    "2": {
+                                        "Vector2D": {
+                                            "x": -0.5,
+                                            "y": -0.5
+                                        }
+                                    },
+                                    "3": {
+                                        "Vector2D": {
+                                            "x": -0.5,
+                                            "y": 0.5
+                                        }
+                                    },
+                                    "size": 4
+                                }
+                            }
+                        },
+                        "3": {
+                            "Component": {
+                                "ID": 33,
+                                "ID_gameObject": 28,
+                                "angularDrag": 0.10000000149011612,
+                                "freezePositionX": false,
+                                "freezePositionY": false,
+                                "freezePositionZ": false,
+                                "freezeRotationX": false,
+                                "freezeRotationY": false,
+                                "freezeRotationZ": false,
+                                "isKinematic": false,
+                                "kfriction": 0.10000000149011612,
+                                "linearDrag": 0.10000000149011612,
+                                "mass": 1.0,
+                                "restitution": 0.05000000074505806,
+                                "sfriction": 0.20000000298023224,
+                                "type": "Rigidbody",
+                                "useGravity": true
+                            }
+                        },
+                        "4": {
+                            "Component": {
+                                "ID": 34,
+                                "ID_gameObject": 28,
+                                "colliderShape": {
+                                    "Shape": {
+                                        "indices": {
+                                            "0": 0,
+                                            "1": 2,
+                                            "10": 5,
+                                            "100": 29,
+                                            "101": 9,
+                                            "102": 9,
+                                            "103": 29,
+                                            "104": 30,
+                                            "105": 9,
+                                            "106": 30,
+                                            "107": 10,
+                                            "108": 10,
+                                            "109": 30,
+                                            "11": 6,
+                                            "110": 31,
+                                            "111": 10,
+                                            "112": 31,
+                                            "113": 11,
+                                            "114": 11,
+                                            "115": 31,
+                                            "116": 32,
+                                            "117": 11,
+                                            "118": 32,
+                                            "119": 12,
+                                            "12": 0,
+                                            "120": 12,
+                                            "121": 32,
+                                            "122": 33,
+                                            "123": 12,
+                                            "124": 33,
+                                            "125": 13,
+                                            "126": 13,
+                                            "127": 33,
+                                            "128": 34,
+                                            "129": 13,
+                                            "13": 6,
+                                            "130": 34,
+                                            "131": 14,
+                                            "132": 14,
+                                            "133": 34,
+                                            "134": 35,
+                                            "135": 14,
+                                            "136": 35,
+                                            "137": 15,
+                                            "138": 15,
+                                            "139": 35,
+                                            "14": 7,
+                                            "140": 36,
+                                            "141": 15,
+                                            "142": 36,
+                                            "143": 16,
+                                            "144": 16,
+                                            "145": 36,
+                                            "146": 37,
+                                            "147": 16,
+                                            "148": 37,
+                                            "149": 17,
+                                            "15": 0,
+                                            "150": 17,
+                                            "151": 37,
+                                            "152": 38,
+                                            "153": 17,
+                                            "154": 38,
+                                            "155": 18,
+                                            "156": 18,
+                                            "157": 38,
+                                            "158": 39,
+                                            "159": 18,
+                                            "16": 7,
+                                            "160": 39,
+                                            "161": 19,
+                                            "162": 19,
+                                            "163": 39,
+                                            "164": 40,
+                                            "165": 19,
+                                            "166": 40,
+                                            "167": 20,
+                                            "168": 20,
+                                            "169": 40,
+                                            "17": 8,
+                                            "170": 41,
+                                            "171": 20,
+                                            "172": 41,
+                                            "173": 21,
+                                            "174": 21,
+                                            "175": 41,
+                                            "176": 22,
+                                            "177": 21,
+                                            "178": 22,
+                                            "179": 2,
+                                            "18": 0,
+                                            "180": 22,
+                                            "181": 1,
+                                            "182": 23,
+                                            "183": 23,
+                                            "184": 1,
+                                            "185": 24,
+                                            "186": 24,
+                                            "187": 1,
+                                            "188": 25,
+                                            "189": 25,
+                                            "19": 8,
+                                            "190": 1,
+                                            "191": 26,
+                                            "192": 26,
+                                            "193": 1,
+                                            "194": 27,
+                                            "195": 27,
+                                            "196": 1,
+                                            "197": 28,
+                                            "198": 28,
+                                            "199": 1,
+                                            "2": 3,
+                                            "20": 9,
+                                            "200": 29,
+                                            "201": 29,
+                                            "202": 1,
+                                            "203": 30,
+                                            "204": 30,
+                                            "205": 1,
+                                            "206": 31,
+                                            "207": 31,
+                                            "208": 1,
+                                            "209": 32,
+                                            "21": 0,
+                                            "210": 32,
+                                            "211": 1,
+                                            "212": 33,
+                                            "213": 33,
+                                            "214": 1,
+                                            "215": 34,
+                                            "216": 34,
+                                            "217": 1,
+                                            "218": 35,
+                                            "219": 35,
+                                            "22": 9,
+                                            "220": 1,
+                                            "221": 36,
+                                            "222": 36,
+                                            "223": 1,
+                                            "224": 37,
+                                            "225": 37,
+                                            "226": 1,
+                                            "227": 38,
+                                            "228": 38,
+                                            "229": 1,
+                                            "23": 10,
+                                            "230": 39,
+                                            "231": 39,
+                                            "232": 1,
+                                            "233": 40,
+                                            "234": 40,
+                                            "235": 1,
+                                            "236": 41,
+                                            "237": 41,
+                                            "238": 1,
+                                            "239": 22,
+                                            "24": 0,
+                                            "25": 10,
+                                            "26": 11,
+                                            "27": 0,
+                                            "28": 11,
+                                            "29": 12,
+                                            "3": 0,
+                                            "30": 0,
+                                            "31": 12,
+                                            "32": 13,
+                                            "33": 0,
+                                            "34": 13,
+                                            "35": 14,
+                                            "36": 0,
+                                            "37": 14,
+                                            "38": 15,
+                                            "39": 0,
+                                            "4": 3,
+                                            "40": 15,
+                                            "41": 16,
+                                            "42": 0,
+                                            "43": 16,
+                                            "44": 17,
+                                            "45": 0,
+                                            "46": 17,
+                                            "47": 18,
+                                            "48": 0,
+                                            "49": 18,
+                                            "5": 4,
+                                            "50": 19,
+                                            "51": 0,
+                                            "52": 19,
+                                            "53": 20,
+                                            "54": 0,
+                                            "55": 20,
+                                            "56": 21,
+                                            "57": 0,
+                                            "58": 21,
+                                            "59": 2,
+                                            "6": 0,
+                                            "60": 2,
+                                            "61": 22,
+                                            "62": 23,
+                                            "63": 2,
+                                            "64": 23,
+                                            "65": 3,
+                                            "66": 3,
+                                            "67": 23,
+                                            "68": 24,
+                                            "69": 3,
+                                            "7": 4,
+                                            "70": 24,
+                                            "71": 4,
+                                            "72": 4,
+                                            "73": 24,
+                                            "74": 25,
+                                            "75": 4,
+                                            "76": 25,
+                                            "77": 5,
+                                            "78": 5,
+                                            "79": 25,
+                                            "8": 5,
+                                            "80": 26,
+                                            "81": 5,
+                                            "82": 26,
+                                            "83": 6,
+                                            "84": 6,
+                                            "85": 26,
+                                            "86": 27,
+                                            "87": 6,
+                                            "88": 27,
+                                            "89": 7,
+                                            "9": 0,
+                                            "90": 7,
+                                            "91": 27,
+                                            "92": 28,
+                                            "93": 7,
+                                            "94": 28,
+                                            "95": 8,
+                                            "96": 8,
+                                            "97": 28,
+                                            "98": 29,
+                                            "99": 8,
+                                            "size": 240
+                                        },
+                                        "type": "ConvexPolyhedron",
+                                        "vertices": {
+                                            "0": {
+                                                "Vector3D": {
+                                                    "x": 0.0,
+                                                    "y": 0.5,
+                                                    "z": 0.0
+                                                }
+                                            },
+                                            "1": {
+                                                "Vector3D": {
+                                                    "x": 0.0,
+                                                    "y": -0.5,
+                                                    "z": 0.0
+                                                }
+                                            },
+                                            "10": {
+                                                "Vector3D": {
+                                                    "x": 0.29389259219169617,
+                                                    "y": 0.5,
+                                                    "z": -0.4045085310935974
+                                                }
+                                            },
+                                            "11": {
+                                                "Vector3D": {
+                                                    "x": 0.15450851619243622,
+                                                    "y": 0.5,
+                                                    "z": -0.4755282402038574
+                                                }
+                                            },
+                                            "12": {
+                                                "Vector3D": {
+                                                    "x": -4.371138828673793e-08,
+                                                    "y": 0.5,
+                                                    "z": -0.5
+                                                }
+                                            },
+                                            "13": {
+                                                "Vector3D": {
+                                                    "x": -0.15450860559940338,
+                                                    "y": 0.5,
+                                                    "z": -0.47552821040153503
+                                                }
+                                            },
+                                            "14": {
+                                                "Vector3D": {
+                                                    "x": -0.2938927710056305,
+                                                    "y": 0.5,
+                                                    "z": -0.4045083820819855
+                                                }
+                                            },
+                                            "15": {
+                                                "Vector3D": {
+                                                    "x": -0.40450841188430786,
+                                                    "y": 0.5,
+                                                    "z": -0.2938927114009857
+                                                }
+                                            },
+                                            "16": {
+                                                "Vector3D": {
+                                                    "x": -0.4755282402038574,
+                                                    "y": 0.5,
+                                                    "z": -0.1545085459947586
+                                                }
+                                            },
+                                            "17": {
+                                                "Vector3D": {
+                                                    "x": -0.5,
+                                                    "y": 0.5,
+                                                    "z": 5.962440319251527e-09
+                                                }
+                                            },
+                                            "18": {
+                                                "Vector3D": {
+                                                    "x": -0.4755282402038574,
+                                                    "y": 0.5,
+                                                    "z": 0.1545085608959198
+                                                }
+                                            },
+                                            "19": {
+                                                "Vector3D": {
+                                                    "x": -0.40450841188430786,
+                                                    "y": 0.5,
+                                                    "z": 0.2938927412033081
+                                                }
+                                            },
+                                            "2": {
+                                                "Vector3D": {
+                                                    "x": 0.0,
+                                                    "y": 0.5,
+                                                    "z": 0.5
+                                                }
+                                            },
+                                            "20": {
+                                                "Vector3D": {
+                                                    "x": -0.29389265179634094,
+                                                    "y": 0.5,
+                                                    "z": 0.40450847148895264
+                                                }
+                                            },
+                                            "21": {
+                                                "Vector3D": {
+                                                    "x": -0.15450847148895264,
+                                                    "y": 0.5,
+                                                    "z": 0.4755282700061798
+                                                }
+                                            },
+                                            "22": {
+                                                "Vector3D": {
+                                                    "x": 0.0,
+                                                    "y": -0.5,
+                                                    "z": 0.5
+                                                }
+                                            },
+                                            "23": {
+                                                "Vector3D": {
+                                                    "x": 0.15450850129127502,
+                                                    "y": -0.5,
+                                                    "z": 0.4755282700061798
+                                                }
+                                            },
+                                            "24": {
+                                                "Vector3D": {
+                                                    "x": 0.29389262199401855,
+                                                    "y": -0.5,
+                                                    "z": 0.404508501291275
+                                                }
+                                            },
+                                            "25": {
+                                                "Vector3D": {
+                                                    "x": 0.4045085310935974,
+                                                    "y": -0.5,
+                                                    "z": 0.29389259219169617
+                                                }
+                                            },
+                                            "26": {
+                                                "Vector3D": {
+                                                    "x": 0.4755282700061798,
+                                                    "y": -0.5,
+                                                    "z": 0.15450848639011383
+                                                }
+                                            },
+                                            "27": {
+                                                "Vector3D": {
+                                                    "x": 0.5,
+                                                    "y": -0.5,
+                                                    "z": -2.1855694143368964e-08
+                                                }
+                                            },
+                                            "28": {
+                                                "Vector3D": {
+                                                    "x": 0.4755282402038574,
+                                                    "y": -0.5,
+                                                    "z": -0.154508575797081
+                                                }
+                                            },
+                                            "29": {
+                                                "Vector3D": {
+                                                    "x": 0.404508501291275,
+                                                    "y": -0.5,
+                                                    "z": -0.29389259219169617
+                                                }
+                                            },
+                                            "3": {
+                                                "Vector3D": {
+                                                    "x": 0.15450850129127502,
+                                                    "y": 0.5,
+                                                    "z": 0.4755282700061798
+                                                }
+                                            },
+                                            "30": {
+                                                "Vector3D": {
+                                                    "x": 0.29389259219169617,
+                                                    "y": -0.5,
+                                                    "z": -0.4045085310935974
+                                                }
+                                            },
+                                            "31": {
+                                                "Vector3D": {
+                                                    "x": 0.15450851619243622,
+                                                    "y": -0.5,
+                                                    "z": -0.4755282402038574
+                                                }
+                                            },
+                                            "32": {
+                                                "Vector3D": {
+                                                    "x": -4.371138828673793e-08,
+                                                    "y": -0.5,
+                                                    "z": -0.5
+                                                }
+                                            },
+                                            "33": {
+                                                "Vector3D": {
+                                                    "x": -0.15450860559940338,
+                                                    "y": -0.5,
+                                                    "z": -0.47552821040153503
+                                                }
+                                            },
+                                            "34": {
+                                                "Vector3D": {
+                                                    "x": -0.2938927710056305,
+                                                    "y": -0.5,
+                                                    "z": -0.4045083820819855
+                                                }
+                                            },
+                                            "35": {
+                                                "Vector3D": {
+                                                    "x": -0.40450841188430786,
+                                                    "y": -0.5,
+                                                    "z": -0.2938927114009857
+                                                }
+                                            },
+                                            "36": {
+                                                "Vector3D": {
+                                                    "x": -0.4755282402038574,
+                                                    "y": -0.5,
+                                                    "z": -0.1545085459947586
+                                                }
+                                            },
+                                            "37": {
+                                                "Vector3D": {
+                                                    "x": -0.5,
+                                                    "y": -0.5,
+                                                    "z": 5.962440319251527e-09
+                                                }
+                                            },
+                                            "38": {
+                                                "Vector3D": {
+                                                    "x": -0.4755282402038574,
+                                                    "y": -0.5,
+                                                    "z": 0.1545085608959198
+                                                }
+                                            },
+                                            "39": {
+                                                "Vector3D": {
+                                                    "x": -0.40450841188430786,
+                                                    "y": -0.5,
+                                                    "z": 0.2938927412033081
+                                                }
+                                            },
+                                            "4": {
+                                                "Vector3D": {
+                                                    "x": 0.29389262199401855,
+                                                    "y": 0.5,
+                                                    "z": 0.404508501291275
+                                                }
+                                            },
+                                            "40": {
+                                                "Vector3D": {
+                                                    "x": -0.29389265179634094,
+                                                    "y": -0.5,
+                                                    "z": 0.40450847148895264
+                                                }
+                                            },
+                                            "41": {
+                                                "Vector3D": {
+                                                    "x": -0.15450847148895264,
+                                                    "y": -0.5,
+                                                    "z": 0.4755282700061798
+                                                }
+                                            },
+                                            "5": {
+                                                "Vector3D": {
+                                                    "x": 0.4045085310935974,
+                                                    "y": 0.5,
+                                                    "z": 0.29389259219169617
+                                                }
+                                            },
+                                            "6": {
+                                                "Vector3D": {
+                                                    "x": 0.4755282700061798,
+                                                    "y": 0.5,
+                                                    "z": 0.15450848639011383
+                                                }
+                                            },
+                                            "7": {
+                                                "Vector3D": {
+                                                    "x": 0.5,
+                                                    "y": 0.5,
+                                                    "z": -2.1855694143368964e-08
+                                                }
+                                            },
+                                            "8": {
+                                                "Vector3D": {
+                                                    "x": 0.4755282402038574,
+                                                    "y": 0.5,
+                                                    "z": -0.154508575797081
+                                                }
+                                            },
+                                            "9": {
+                                                "Vector3D": {
+                                                    "x": 0.404508501291275,
+                                                    "y": 0.5,
+                                                    "z": -0.29389259219169617
+                                                }
+                                            },
+                                            "size": 42
+                                        }
+                                    }
+                                },
+                                "isTrigger": false,
+                                "type": "CylinderCollider"
+                            }
+                        },
+                        "5": {
+                            "Component": {
+                                "ID": 35,
+                                "ID_gameObject": 28,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 0.0,
+                                                        "r": 0.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "BoundaryDebug",
+                                                "shaderFilePath": "..\\Resources\\Shader\\debug.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "BoundaryDebug"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cylinder",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 6
+                    },
+                    "layerID": 0,
+                    "name": "obj",
+                    "transform": {
+                        "Component": {
+                            "ID": 29,
+                            "ID_gameObject": 28,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 65.0,
+                                    "z": 150.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": -4.371138828673793e-08,
+                                    "x": 1.0,
+                                    "y": 0.0,
+                                    "z": -0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 5.0,
+                                    "y": 5.0,
+                                    "z": 5.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "size": 8
+        },
+        "mainCameraID": 2,
+        "sceneName": "SampleScene",
+        "subObjectList": {
+            "size": 0
+        }
+    }
+}

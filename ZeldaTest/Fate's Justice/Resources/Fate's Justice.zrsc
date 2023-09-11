@@ -1,0 +1,1648 @@
+{
+    "ResourceManager": {
+        "fbxList": {
+            "0": {
+                "fbxName": "Boss",
+                "filePath": "..\\Resources\\FBX\\Boss\\Boss.fbx",
+                "shaderPath": "..\\Resources\\Shader\\boss.hlsli"
+            },
+            "1": {
+                "fbxName": "BossDoor",
+                "filePath": "..\\Resources\\FBX\\BossDoor\\BossDoor.fbx",
+                "shaderPath": "..\\Resources\\Shader\\deferred.hlsli"
+            },
+            "10": {
+                "fbxName": "VFX_Blocking",
+                "filePath": "..\\Resources\\FBX\\VFX_Blocking\\VFX_Blocking.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "11": {
+                "fbxName": "VFX_BossNormalAttackGuide",
+                "filePath": "..\\Resources\\FBX\\VFX_BossNormalAttackGuide\\VFX_BossNormalAttackGuide.fbx",
+                "shaderPath": "..\\Resources\\Shader\\GuideLine.hlsli"
+            },
+            "12": {
+                "fbxName": "VFX_BossNormalAttack_L",
+                "filePath": "..\\Resources\\FBX\\VFX_BossNormalAttack_L\\VFX_BossNormalAttack_L.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "13": {
+                "fbxName": "VFX_BossNormalAttack_R",
+                "filePath": "..\\Resources\\FBX\\VFX_BossNormalAttack_R\\VFX_BossNormalAttack_R.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "14": {
+                "fbxName": "VFX_ChargeAttack",
+                "filePath": "..\\Resources\\FBX\\VFX_ChargeAttack\\VFX_ChargeAttack.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "15": {
+                "fbxName": "VFX_ChargeAttackGuide",
+                "filePath": "..\\Resources\\FBX\\VFX_ChargeAttackGuide\\VFX_ChargeAttackGuide.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "16": {
+                "fbxName": "VFX_ChargeSonic",
+                "filePath": "..\\Resources\\FBX\\VFX_ChargeSonic\\VFX_ChargeSonic.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "17": {
+                "fbxName": "VFX_Circle",
+                "filePath": "..\\Resources\\FBX\\VFX_Circle\\VFX_Circle.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "18": {
+                "fbxName": "VFX_Explosion",
+                "filePath": "..\\Resources\\FBX\\VFX_Explosion\\VFX_Explosion.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "19": {
+                "fbxName": "VFX_Knockback",
+                "filePath": "..\\Resources\\FBX\\VFX_Knockback\\VFX_Knockback.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "2": {
+                "fbxName": "BossDoorHand",
+                "filePath": "..\\Resources\\FBX\\BossDoorHand\\BossDoorHand.fbx",
+                "shaderPath": "..\\Resources\\Shader\\deferred_skinned_shadow.hlsli"
+            },
+            "20": {
+                "fbxName": "VFX_KnockbackGuide",
+                "filePath": "..\\Resources\\FBX\\VFX_KnockbackGuide\\VFX_KnockbackGuide.fbx",
+                "shaderPath": "..\\Resources\\Shader\\GuideLine.hlsli"
+            },
+            "21": {
+                "fbxName": "VFX_PlayerAttack",
+                "filePath": "..\\Resources\\FBX\\VFX_PlayerAttack\\VFX_PlayerAttack.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "22": {
+                "fbxName": "VFX_PlayerSpecialAttack",
+                "filePath": "..\\Resources\\FBX\\VFX_PlayerSpecialAttack\\VFX_PlayerSpecialAttack.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "23": {
+                "fbxName": "VFX_Protect",
+                "filePath": "..\\Resources\\FBX\\VFX_Protect\\VFX_Protect.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "24": {
+                "fbxName": "VFX_RangedAttack",
+                "filePath": "..\\Resources\\FBX\\VFX_RangedAttack\\VFX_RangedAttack.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "25": {
+                "fbxName": "VFX_Skill2D",
+                "filePath": "..\\Resources\\FBX\\VFX_Skill2D\\VFX_Skill2D.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "26": {
+                "fbxName": "VFX_Teleport",
+                "filePath": "..\\Resources\\FBX\\VFX_Teleport\\VFX_Teleport.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "27": {
+                "fbxName": "VFX_Tree",
+                "filePath": "..\\Resources\\FBX\\VFX_Tree\\VFX_Tree.fbx",
+                "shaderPath": "..\\Resources\\Shader\\TextureAnim.hlsli"
+            },
+            "3": {
+                "fbxName": "BossFlag",
+                "filePath": "..\\Resources\\FBX\\BossFlag\\BossFlag.fbx",
+                "shaderPath": "..\\Resources\\Shader\\BossFlag.hlsli"
+            },
+            "4": {
+                "fbxName": "BossFloor",
+                "filePath": "..\\Resources\\FBX\\BossFloor\\BossFloor.fbx",
+                "shaderPath": "..\\Resources\\Shader\\deferred_shadow.hlsli"
+            },
+            "5": {
+                "fbxName": "BossObstacle",
+                "filePath": "..\\Resources\\FBX\\BossObstacle\\BossObstacle.fbx",
+                "shaderPath": "..\\Resources\\Shader\\deferred_shadow.hlsli"
+            },
+            "6": {
+                "fbxName": "BossProjectile",
+                "filePath": "..\\Resources\\FBX\\BossProjectile\\BossProjectile.fbx",
+                "shaderPath": "..\\Resources\\Shader\\deferred_shadow.hlsli"
+            },
+            "7": {
+                "fbxName": "BossProjectile_Outer",
+                "filePath": "..\\Resources\\FBX\\BossProjectile_Outer\\BossProjectile_Outer.fbx",
+                "shaderPath": "..\\Resources\\Shader\\BossProjectile.hlsli"
+            },
+            "8": {
+                "fbxName": "Player",
+                "filePath": "..\\Resources\\FBX\\Player\\Player.fbx",
+                "shaderPath": "..\\Resources\\Shader\\player.hlsli"
+            },
+            "9": {
+                "fbxName": "Scroll",
+                "filePath": "..\\Resources\\FBX\\Scroll\\Scroll.fbx",
+                "shaderPath": "..\\Resources\\Shader\\deferred.hlsli"
+            },
+            "size": 28
+        },
+        "materialList": {
+            "0": {
+                "MaterialInfo": {
+                    "MaterialInfo": {
+                        "color": {
+                            "ZeldaColor": {
+                                "alpha": 1.0,
+                                "b": 1.0,
+                                "g": 0.0,
+                                "r": 0.0
+                            }
+                        },
+                        "floatParams0": 0.0,
+                        "floatParams1": 0.0,
+                        "floatParams2": 0.0,
+                        "floatParams3": 0.0,
+                        "intParams0": 0,
+                        "intParams1": 0,
+                        "intParams2": 0,
+                        "intParams3": 0,
+                        "materialName": "BoundaryDebug",
+                        "shaderFilePath": "..\\Resources\\Shader\\debug.hlsli",
+                        "texture0": "",
+                        "texture1": "",
+                        "texture2": "",
+                        "texture3": "",
+                        "vec2Params0": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params1": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params2": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params3": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec4Params0": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params1": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params2": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params3": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                },
+                "MaterialName": "BoundaryDebug"
+            },
+            "1": {
+                "MaterialInfo": {
+                    "MaterialInfo": {
+                        "color": {
+                            "ZeldaColor": {
+                                "alpha": 1.0,
+                                "b": 1.0,
+                                "g": 0.0,
+                                "r": 0.0
+                            }
+                        },
+                        "floatParams0": 0.0,
+                        "floatParams1": 0.0,
+                        "floatParams2": 0.0,
+                        "floatParams3": 0.0,
+                        "intParams0": 0,
+                        "intParams1": 0,
+                        "intParams2": 0,
+                        "intParams3": 0,
+                        "materialName": "BoundaryDebug_Line",
+                        "shaderFilePath": "..\\Resources\\Shader\\debug_line.hlsli",
+                        "texture0": "",
+                        "texture1": "",
+                        "texture2": "",
+                        "texture3": "",
+                        "vec2Params0": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params1": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params2": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params3": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec4Params0": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params1": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params2": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params3": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                },
+                "MaterialName": "BoundaryDebug_Line"
+            },
+            "2": {
+                "MaterialInfo": {
+                    "MaterialInfo": {
+                        "color": {
+                            "ZeldaColor": {
+                                "alpha": 1.0,
+                                "b": 1.0,
+                                "g": 1.0,
+                                "r": 1.0
+                            }
+                        },
+                        "floatParams0": 0.0,
+                        "floatParams1": 0.0,
+                        "floatParams2": 0.0,
+                        "floatParams3": 0.0,
+                        "intParams0": 0,
+                        "intParams1": 0,
+                        "intParams2": 0,
+                        "intParams3": 0,
+                        "materialName": "CubeMaterial",
+                        "shaderFilePath": "..\\Resources\\Shader\\deferred.hlsli",
+                        "texture0": "",
+                        "texture1": "",
+                        "texture2": "",
+                        "texture3": "",
+                        "vec2Params0": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params1": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params2": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params3": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec4Params0": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params1": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params2": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params3": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                },
+                "MaterialName": "CubeMaterial"
+            },
+            "3": {
+                "MaterialInfo": {
+                    "MaterialInfo": {
+                        "color": {
+                            "ZeldaColor": {
+                                "alpha": 1.0,
+                                "b": 1.0,
+                                "g": 1.0,
+                                "r": 1.0
+                            }
+                        },
+                        "floatParams0": 0.0,
+                        "floatParams1": 0.0,
+                        "floatParams2": 0.0,
+                        "floatParams3": 0.0,
+                        "intParams0": 0,
+                        "intParams1": 0,
+                        "intParams2": 0,
+                        "intParams3": 0,
+                        "materialName": "CubeMaterial_F",
+                        "shaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                        "texture0": "",
+                        "texture1": "",
+                        "texture2": "",
+                        "texture3": "",
+                        "vec2Params0": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params1": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params2": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params3": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec4Params0": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params1": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params2": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params3": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                },
+                "MaterialName": "CubeMaterial_F"
+            },
+            "4": {
+                "MaterialInfo": {
+                    "MaterialInfo": {
+                        "color": {
+                            "ZeldaColor": {
+                                "alpha": 1.0,
+                                "b": 1.0,
+                                "g": 1.0,
+                                "r": 1.0
+                            }
+                        },
+                        "floatParams0": 0.0,
+                        "floatParams1": 0.0,
+                        "floatParams2": 0.0,
+                        "floatParams3": 0.0,
+                        "intParams0": 0,
+                        "intParams1": 0,
+                        "intParams2": 0,
+                        "intParams3": 0,
+                        "materialName": "DirLight",
+                        "shaderFilePath": "..\\Resources\\Shader\\lightingDirectional.hlsli",
+                        "texture0": "D_Position",
+                        "texture1": "D_Normal",
+                        "texture2": "",
+                        "texture3": "",
+                        "vec2Params0": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params1": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params2": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params3": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec4Params0": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params1": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params2": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params3": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                },
+                "MaterialName": "DirLight"
+            },
+            "5": {
+                "MaterialInfo": {
+                    "MaterialInfo": {
+                        "color": {
+                            "ZeldaColor": {
+                                "alpha": 1.0,
+                                "b": 1.0,
+                                "g": 1.0,
+                                "r": 1.0
+                            }
+                        },
+                        "floatParams0": 0.0,
+                        "floatParams1": 0.0,
+                        "floatParams2": 0.0,
+                        "floatParams3": 0.0,
+                        "intParams0": 0,
+                        "intParams1": 0,
+                        "intParams2": 0,
+                        "intParams3": 0,
+                        "materialName": "Sprite",
+                        "shaderFilePath": "..\\Resources\\Shader\\Sprite3D.hlsli",
+                        "texture0": "",
+                        "texture1": "",
+                        "texture2": "",
+                        "texture3": "",
+                        "vec2Params0": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params1": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params2": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params3": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec4Params0": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params1": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params2": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params3": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                },
+                "MaterialName": "Sprite"
+            },
+            "6": {
+                "MaterialInfo": {
+                    "MaterialInfo": {
+                        "color": {
+                            "ZeldaColor": {
+                                "alpha": 1.0,
+                                "b": 1.0,
+                                "g": 1.0,
+                                "r": 1.0
+                            }
+                        },
+                        "floatParams0": 0.0,
+                        "floatParams1": 0.0,
+                        "floatParams2": 0.0,
+                        "floatParams3": 0.0,
+                        "intParams0": 0,
+                        "intParams1": 0,
+                        "intParams2": 0,
+                        "intParams3": 0,
+                        "materialName": "UI",
+                        "shaderFilePath": "..\\Resources\\Shader\\UI.hlsli",
+                        "texture0": "",
+                        "texture1": "",
+                        "texture2": "",
+                        "texture3": "",
+                        "vec2Params0": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params1": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params2": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec2Params3": {
+                            "Vector2D": {
+                                "x": 0.0,
+                                "y": 0.0
+                            }
+                        },
+                        "vec4Params0": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params1": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params2": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        },
+                        "vec4Params3": {
+                            "Vector4D": {
+                                "w": 0.0,
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0
+                            }
+                        }
+                    }
+                },
+                "MaterialName": "UI"
+            },
+            "size": 7
+        },
+        "meshList": {
+            "0": {
+                "MeshInfo": "Capsule",
+                "MeshName": "Capsule"
+            },
+            "1": {
+                "MeshInfo": "Cube",
+                "MeshName": "Cube"
+            },
+            "2": {
+                "MeshInfo": "Cylinder",
+                "MeshName": "Cylinder"
+            },
+            "3": {
+                "MeshInfo": "Line",
+                "MeshName": "Line"
+            },
+            "4": {
+                "MeshInfo": "Point",
+                "MeshName": "Point"
+            },
+            "5": {
+                "MeshInfo": "Rectangle",
+                "MeshName": "Rectangle"
+            },
+            "6": {
+                "MeshInfo": "Sphere",
+                "MeshName": "Sphere"
+            },
+            "7": {
+                "MeshInfo": "Rectangle",
+                "MeshName": "Sprite"
+            },
+            "8": {
+                "MeshInfo": "Rectangle",
+                "MeshName": "UI"
+            },
+            "size": 9
+        },
+        "shaderList": {
+            "0": {
+                "ShaderFilePath": "..\\Resources\\Shader\\boss.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 0,
+                        "shaderType": 3,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "Boss"
+            },
+            "1": {
+                "ShaderFilePath": "..\\Resources\\Shader\\BossFlag.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 1,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 4,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "BossFlag"
+            },
+            "10": {
+                "ShaderFilePath": "..\\Resources\\Shader\\player.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 3,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "Player"
+            },
+            "11": {
+                "ShaderFilePath": "..\\Resources\\Shader\\deferred_skinned.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 1,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "SkinnedMesh"
+            },
+            "12": {
+                "ShaderFilePath": "..\\Resources\\Shader\\skybox.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 1,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 1,
+                        "shaderType": 4,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "SkyBox"
+            },
+            "13": {
+                "ShaderFilePath": "..\\Resources\\Shader\\Sprite3D.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 1,
+                        "cs": "",
+                        "depthStencilType": 6,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 4,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "Sprite"
+            },
+            "14": {
+                "ShaderFilePath": "..\\Resources\\Shader\\TextureAnim.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 1,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 0,
+                        "shaderType": 10,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "TextureAnim"
+            },
+            "15": {
+                "ShaderFilePath": "..\\Resources\\Shader\\UI.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 1,
+                        "cs": "",
+                        "depthStencilType": 5,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 0,
+                        "shaderType": 9,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "UI"
+            },
+            "16": {
+                "ShaderFilePath": "..\\Resources\\Shader\\deferred_shadow.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 2,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "deferred_shadow"
+            },
+            "17": {
+                "ShaderFilePath": "..\\Resources\\Shader\\deferred_skinned_shadow.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 3,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "deferred_skinned_shadow"
+            },
+            "2": {
+                "ShaderFilePath": "..\\Resources\\Shader\\BossFloor.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 1,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 0,
+                        "shaderType": 4,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "BossFloor"
+            },
+            "3": {
+                "ShaderFilePath": "..\\Resources\\Shader\\BossProjectile.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 1,
+                        "cs": "",
+                        "depthStencilType": 6,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 2,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "BossProjectile"
+            },
+            "4": {
+                "ShaderFilePath": "..\\Resources\\Shader\\debug.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 3,
+                        "shaderType": 4,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "Debug"
+            },
+            "5": {
+                "ShaderFilePath": "..\\Resources\\Shader\\debug_line.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 3,
+                        "shaderType": 4,
+                        "topology": 2,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "Debug_Line"
+            },
+            "6": {
+                "ShaderFilePath": "..\\Resources\\Shader\\deferred.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 0,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "Deferred"
+            },
+            "7": {
+                "ShaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 0,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 2,
+                        "shaderType": 4,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "Forward"
+            },
+            "8": {
+                "ShaderFilePath": "..\\Resources\\Shader\\GuideLine.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 1,
+                        "cs": "",
+                        "depthStencilType": 0,
+                        "gs": "",
+                        "ps": "PS_Main",
+                        "rasterizerType": 0,
+                        "shaderType": 4,
+                        "topology": 4,
+                        "vs": "VS_Main"
+                    }
+                },
+                "ShaderName": "GuideLine"
+            },
+            "9": {
+                "ShaderFilePath": "..\\Resources\\Shader\\lightingDirectional.hlsli",
+                "ShaderInfo": {
+                    "ShaderInfo": {
+                        "blendType": 2,
+                        "cs": "",
+                        "depthStencilType": 5,
+                        "gs": "",
+                        "ps": "PS_DirLight",
+                        "rasterizerType": 0,
+                        "shaderType": 5,
+                        "topology": 4,
+                        "vs": "VS_DirLight"
+                    }
+                },
+                "ShaderName": "LightingDirectional"
+            },
+            "size": 18
+        },
+        "textureList": {
+            "0": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\etc\\pointer.png",
+                "textureName": "AttachUI"
+            },
+            "1": {
+                "textureInfo": "..\\Resources\\Texture\\backgrounds.png",
+                "textureName": "BackGround"
+            },
+            "10": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\boss\\brushstroke_3phase_boss_6.png",
+                "textureName": "BrushPahse3Boss6"
+            },
+            "100": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\SettingUI.png",
+                "textureName": "SettingUI_Click"
+            },
+            "101": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\SettingUI_Enter.png",
+                "textureName": "SettingUI_Enter"
+            },
+            "102": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\SettingUI.png",
+                "textureName": "SettingUI_Idle"
+            },
+            "103": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\SoundHandle.png",
+                "textureName": "SoundHandle"
+            },
+            "104": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\SoundText.png",
+                "textureName": "SoundText"
+            },
+            "105": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_option_sound.png",
+                "textureName": "SoundText_Ingame_Click"
+            },
+            "106": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_option_sound_hover.png",
+                "textureName": "SoundText_Ingame_Enter"
+            },
+            "107": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_option_sound.png",
+                "textureName": "SoundText_Ingame_Idle"
+            },
+            "108": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\staffroll.png",
+                "textureName": "StaffRoll"
+            },
+            "109": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\StandoffBase.png",
+                "textureName": "StandoffBase"
+            },
+            "11": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\mainchar\\brushstroke_3phase_mainchar_0.png",
+                "textureName": "BrushPahse3Player0"
+            },
+            "110": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\CoolTimeCover.png",
+                "textureName": "StandoffCover"
+            },
+            "111": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\CoolTimeMoveCover.png",
+                "textureName": "StandoffMoveCover"
+            },
+            "112": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\TitleUI\\start_click.png",
+                "textureName": "Start_Click"
+            },
+            "113": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\TitleUI\\start_enter.png",
+                "textureName": "Start_Enter"
+            },
+            "114": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\TitleUI\\start.png",
+                "textureName": "Start_Idle"
+            },
+            "115": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\TitleUI\\TitleBackground.png",
+                "textureName": "TitleBackground"
+            },
+            "116": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Title_Click.png",
+                "textureName": "Title_Click"
+            },
+            "117": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Title_Enter.png",
+                "textureName": "Title_Enter"
+            },
+            "118": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_gameover_gotitle.png",
+                "textureName": "Title_GameOver_Click"
+            },
+            "119": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_gameover_gotitle_hover.png",
+                "textureName": "Title_GameOver_Enter"
+            },
+            "12": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\mainchar\\brushstroke_3phase_mainchar_1.png",
+                "textureName": "BrushPahse3Player1"
+            },
+            "120": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_gameover_gotitle.png",
+                "textureName": "Title_GameOver_Idle"
+            },
+            "121": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Title_Idle.png",
+                "textureName": "Title_Idle"
+            },
+            "122": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_3phase_hithit.png",
+                "textureName": "UIHitHit"
+            },
+            "123": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\etc\\A being out of this world.png",
+                "textureName": "White"
+            },
+            "124": {
+                "textureInfo": "..\\Resources\\Texture\\bossdamage\\boss_damage_0.png",
+                "textureName": "boss_damage_0"
+            },
+            "125": {
+                "textureInfo": "..\\Resources\\Texture\\bossdamage\\boss_damage_1.png",
+                "textureName": "boss_damage_1"
+            },
+            "126": {
+                "textureInfo": "..\\Resources\\Texture\\bossdamage\\boss_damage_2.png",
+                "textureName": "boss_damage_2"
+            },
+            "127": {
+                "textureInfo": "..\\Resources\\Texture\\bossdamage\\boss_damage_3.png",
+                "textureName": "boss_damage_3"
+            },
+            "128": {
+                "textureInfo": "..\\Resources\\Texture\\bossdamage\\boss_damage_4.png",
+                "textureName": "boss_damage_4"
+            },
+            "129": {
+                "textureInfo": "..\\Resources\\Texture\\bossdamage\\boss_damage_5.png",
+                "textureName": "boss_damage_5"
+            },
+            "13": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\mainchar\\brushstroke_3phase_mainchar_2.png",
+                "textureName": "BrushPahse3Player2"
+            },
+            "130": {
+                "textureInfo": "..\\Resources\\Texture\\bossdamage\\boss_damage_6.png",
+                "textureName": "boss_damage_6"
+            },
+            "131": {
+                "textureInfo": "..\\Resources\\Texture\\BossRageTexture\\concentrationline.png",
+                "textureName": "boss_rageline"
+            },
+            "132": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\2phase_widebrush\\widebrush_bottom.png",
+                "textureName": "widebrush_bottom"
+            },
+            "133": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\2phase_widebrush\\widebrush_horizontal_warning.png",
+                "textureName": "widebrush_horizontal_warning"
+            },
+            "134": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\2phase_widebrush\\widebrush_left.png",
+                "textureName": "widebrush_left"
+            },
+            "135": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\2phase_widebrush\\widebrush_right.png",
+                "textureName": "widebrush_right"
+            },
+            "136": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\2phase_widebrush\\widebrush_top.png",
+                "textureName": "widebrush_top"
+            },
+            "137": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\2phase_widebrush\\widebrush_vertical_warning.png",
+                "textureName": "widebrush_vertical_warning"
+            },
+            "14": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\mainchar\\brushstroke_3phase_mainchar_3.png",
+                "textureName": "BrushPahse3Player3"
+            },
+            "15": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\mainchar\\brushstroke_3phase_mainchar_4.png",
+                "textureName": "BrushPahse3Player4"
+            },
+            "16": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\mainchar\\brushstroke_3phase_mainchar_5.png",
+                "textureName": "BrushPahse3Player5"
+            },
+            "17": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\mainchar\\brushstroke_3phase_mainchar_6.png",
+                "textureName": "BrushPahse3Player6"
+            },
+            "18": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Continue_Click.png",
+                "textureName": "Continue_Click"
+            },
+            "19": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Continue_Enter.png",
+                "textureName": "Continue_Enter"
+            },
+            "2": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\etc\\Our Future.png",
+                "textureName": "Black"
+            },
+            "20": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Continue_Idle.png",
+                "textureName": "Continue_Idle"
+            },
+            "21": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\CoolTime_DisableCover.png",
+                "textureName": "CoolTime_DisableCover"
+            },
+            "22": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\DashBase.png",
+                "textureName": "DashBase"
+            },
+            "23": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Dash_Top.png",
+                "textureName": "DashCover"
+            },
+            "24": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Dash_Middle.png",
+                "textureName": "DashMoveCover"
+            },
+            "25": {
+                "textureInfo": "..\\Resources\\Texture\\BossFlag\\delete.jpg",
+                "textureName": "Delete"
+            },
+            "26": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\ending\\ending_0.png",
+                "textureName": "EndingCutScene0"
+            },
+            "27": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\ending\\ending_1.png",
+                "textureName": "EndingCutScene1"
+            },
+            "28": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\ending\\ending_2.png",
+                "textureName": "EndingCutScene2"
+            },
+            "29": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\TitleUI\\exit_click.png",
+                "textureName": "Exit_Click"
+            },
+            "3": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\BlackCoverBackground.png",
+                "textureName": "BlackCoverBackground"
+            },
+            "30": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\TitleUI\\exit_enter.png",
+                "textureName": "Exit_Enter"
+            },
+            "31": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\TitleUI\\exit.png",
+                "textureName": "Exit_Idle"
+            },
+            "32": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_option_quit.png",
+                "textureName": "Exit_Ingame_Click"
+            },
+            "33": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_option_quit_hover.png",
+                "textureName": "Exit_Ingame_Enter"
+            },
+            "34": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_option_quit.png",
+                "textureName": "Exit_Ingame_Idle"
+            },
+            "35": {
+                "textureInfo": "..\\Resources\\Texture\\BossFlag\\T_Flag_Diffuse_002.png",
+                "textureName": "Flag2"
+            },
+            "36": {
+                "textureInfo": "..\\Resources\\Texture\\GameOver\\gameover.png",
+                "textureName": "GameOverBackground"
+            },
+            "37": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\HPBar.png",
+                "textureName": "HPBar"
+            },
+            "38": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\HPBarBase.png",
+                "textureName": "HPBarBase"
+            },
+            "39": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\HPBarCover.png",
+                "textureName": "HPBarCover"
+            },
+            "4": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\boss\\brushstroke_3phase_boss_0.png",
+                "textureName": "BrushPahse3Boss0"
+            },
+            "40": {
+                "textureInfo": "..\\Resources\\Texture\\Intro\\intro.png",
+                "textureName": "Intro"
+            },
+            "41": {
+                "textureInfo": "..\\Resources\\Texture\\Intro\\intro_gradation.png",
+                "textureName": "Intro_Gradation"
+            },
+            "42": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\None.png",
+                "textureName": "None"
+            },
+            "43": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\brushstroke_2phase_0.png",
+                "textureName": "Normal2DPatternTexture_0"
+            },
+            "44": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\brushstroke_2phase_1.png",
+                "textureName": "Normal2DPatternTexture_1"
+            },
+            "45": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\brushstroke_2phase_2.png",
+                "textureName": "Normal2DPatternTexture_2"
+            },
+            "46": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\brushstroke_2phase_3.png",
+                "textureName": "Normal2DPatternTexture_3"
+            },
+            "47": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\brushstroke_2phase_4.png",
+                "textureName": "Normal2DPatternTexture_4"
+            },
+            "48": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\brushstroke_2phase_5.png",
+                "textureName": "Normal2DPatternTexture_5"
+            },
+            "49": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\brushstroke_2phase_warning.png",
+                "textureName": "Normal2DPatternTexture_Warning"
+            },
+            "5": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\boss\\brushstroke_3phase_boss_1.png",
+                "textureName": "BrushPahse3Boss1"
+            },
+            "50": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_0.png",
+                "textureName": "Num_0"
+            },
+            "51": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_1.png",
+                "textureName": "Num_1"
+            },
+            "52": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_2.png",
+                "textureName": "Num_2"
+            },
+            "53": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_3.png",
+                "textureName": "Num_3"
+            },
+            "54": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_4.png",
+                "textureName": "Num_4"
+            },
+            "55": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_5.png",
+                "textureName": "Num_5"
+            },
+            "56": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_6.png",
+                "textureName": "Num_6"
+            },
+            "57": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_7.png",
+                "textureName": "Num_7"
+            },
+            "58": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_8.png",
+                "textureName": "Num_8"
+            },
+            "59": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\Num_9.png",
+                "textureName": "Num_9"
+            },
+            "6": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\boss\\brushstroke_3phase_boss_2.png",
+                "textureName": "BrushPahse3Boss2"
+            },
+            "60": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\first\\2phasestart_first_0.png",
+                "textureName": "Phase2CutScene1_0"
+            },
+            "61": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\first\\2phasestart_first_1.png",
+                "textureName": "Phase2CutScene1_1"
+            },
+            "62": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\first\\2phasestart_first_2.png",
+                "textureName": "Phase2CutScene1_2"
+            },
+            "63": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\first\\2phasestart_first_3.png",
+                "textureName": "Phase2CutScene1_3"
+            },
+            "64": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\first\\2phasestart_first_4.png",
+                "textureName": "Phase2CutScene1_4"
+            },
+            "65": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\first\\2phasestart_first_5.png",
+                "textureName": "Phase2CutScene1_5"
+            },
+            "66": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\first\\2phasestart_first_6.png",
+                "textureName": "Phase2CutScene1_6"
+            },
+            "67": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_0.png",
+                "textureName": "Phase2CutScene2_0"
+            },
+            "68": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_1.png",
+                "textureName": "Phase2CutScene2_1"
+            },
+            "69": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_2.png",
+                "textureName": "Phase2CutScene2_2"
+            },
+            "7": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\boss\\brushstroke_3phase_boss_3.png",
+                "textureName": "BrushPahse3Boss3"
+            },
+            "70": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_3.png",
+                "textureName": "Phase2CutScene2_3"
+            },
+            "71": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_4.png",
+                "textureName": "Phase2CutScene2_4"
+            },
+            "72": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_5.png",
+                "textureName": "Phase2CutScene2_5"
+            },
+            "73": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_6.png",
+                "textureName": "Phase2CutScene2_6"
+            },
+            "74": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_7.png",
+                "textureName": "Phase2CutScene2_7"
+            },
+            "75": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_8.png",
+                "textureName": "Phase2CutScene2_8"
+            },
+            "76": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\2phase\\second\\2phasestart_second_9.png",
+                "textureName": "Phase2CutScene2_9"
+            },
+            "77": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_0.png",
+                "textureName": "Phase3CutScene0"
+            },
+            "78": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_1.png",
+                "textureName": "Phase3CutScene1"
+            },
+            "79": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_10.png",
+                "textureName": "Phase3CutScene10"
+            },
+            "8": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\boss\\brushstroke_3phase_boss_4.png",
+                "textureName": "BrushPahse3Boss4"
+            },
+            "80": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_11.png",
+                "textureName": "Phase3CutScene11"
+            },
+            "81": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_12.png",
+                "textureName": "Phase3CutScene12"
+            },
+            "82": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_2.png",
+                "textureName": "Phase3CutScene2"
+            },
+            "83": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_3.png",
+                "textureName": "Phase3CutScene3"
+            },
+            "84": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_4.png",
+                "textureName": "Phase3CutScene4"
+            },
+            "85": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_5.png",
+                "textureName": "Phase3CutScene5"
+            },
+            "86": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_6.png",
+                "textureName": "Phase3CutScene6"
+            },
+            "87": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_7.png",
+                "textureName": "Phase3CutScene7"
+            },
+            "88": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_8.png",
+                "textureName": "Phase3CutScene8"
+            },
+            "89": {
+                "textureInfo": "..\\Resources\\Texture\\phase_cutscene\\3phase\\3phasestart_9.png",
+                "textureName": "Phase3CutScene9"
+            },
+            "9": {
+                "textureInfo": "..\\Resources\\Texture\\2DPattern\\3phase_brush\\boss\\brushstroke_3phase_boss_5.png",
+                "textureName": "BrushPahse3Boss5"
+            },
+            "90": {
+                "textureInfo": "..\\Resources\\Texture\\playerdamage\\player_damage_0.png",
+                "textureName": "PlayerDamaged_0"
+            },
+            "91": {
+                "textureInfo": "..\\Resources\\Texture\\playerdamage\\player_damage_1.png",
+                "textureName": "PlayerDamaged_1"
+            },
+            "92": {
+                "textureInfo": "..\\Resources\\Texture\\playerdamage\\player_damage_2.png",
+                "textureName": "PlayerDamaged_2"
+            },
+            "93": {
+                "textureInfo": "..\\Resources\\Texture\\playerdamage\\player_damage_3.png",
+                "textureName": "PlayerDamaged_3"
+            },
+            "94": {
+                "textureInfo": "..\\Resources\\Texture\\playerdamage\\player_damage_4.png",
+                "textureName": "PlayerDamaged_4"
+            },
+            "95": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_gameover_restart.png",
+                "textureName": "Restart_Click"
+            },
+            "96": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_gameover_restart_hover.png",
+                "textureName": "Restart_Enter"
+            },
+            "97": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ui_gameover_restart.png",
+                "textureName": "Restart_Idle"
+            },
+            "98": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\ScrollUI.png",
+                "textureName": "ScrollUI"
+            },
+            "99": {
+                "textureInfo": "..\\Resources\\Texture\\UI\\InGameUI\\SettingBackground.png",
+                "textureName": "SettingBackground"
+            },
+            "size": 138
+        }
+    }
+}

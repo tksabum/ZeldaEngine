@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Component">
+      <UniqueIdentifier>{2a0b3294-5194-4ef1-ab99-19668c1c4e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary">
+      <UniqueIdentifier>{194a7a25-d2eb-4d46-b0a2-18aa9af4944e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\DH">
+      <UniqueIdentifier>{5b9f7888-66a2-4fd3-b3a8-56aca94720c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\GH">
+      <UniqueIdentifier>{874371dc-83e3-4a02-8a62-b6bbb9520512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\DH\FSM">
+      <UniqueIdentifier>{747091b3-836e-4827-9adb-bcae3cb0e726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\DH\Player">
+      <UniqueIdentifier>{225317f7-2997-439e-8957-16d7218b89ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\UISlave">
+      <UniqueIdentifier>{5d23e191-3dc8-4ff6-84ce-ba16af7f594d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\SJ">
+      <UniqueIdentifier>{437689a1-e11d-4800-8240-75a2f972dcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\SJ\UI">
+      <UniqueIdentifier>{ba1e8fc9-5abb-4dd4-a15a-c6c54059770c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\SJ\UI\BaseUI">
+      <UniqueIdentifier>{e7d188e5-ac1a-4800-826c-491ecab41755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\SJ\UI\CoolTimeUI">
+      <UniqueIdentifier>{951918fc-0423-4530-925e-a71f5111e285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\SJ\UI\SoundBar">
+      <UniqueIdentifier>{9f7d560a-14c9-4ed1-baab-4c33cdc99db6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExLibrary\SJ\RailMoveCamera">
+      <UniqueIdentifier>{ff932088-d688-4a07-80fb-9cea5612d811}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="sampleComponent.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Dotween.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="Easing.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="DotweenTimer.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="NDComponent.cpp">
+      <Filter>ExLibrary\DH</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectPool.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowCamera.cpp">
+      <Filter>ExLibrary\DH</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatorTest.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomRotate.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ExLibrary\DH\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClCompile>
+    <ClCompile Include="DotweenTimerPool.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\SettingButton.cpp">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\TitleButton.cpp">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\CoolTimeUI.cpp">
+      <Filter>ExLibrary\SJ\UI\CoolTimeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\DashCoolTimeUI.cpp">
+      <Filter>ExLibrary\SJ\UI\CoolTimeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\StandoffCoolTimeUI.cpp">
+      <Filter>ExLibrary\SJ\UI\CoolTimeUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\HPUI.cpp">
+      <Filter>ExLibrary\SJ\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\BaseUI.cpp">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\CoverUI.cpp">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\MovableUI.cpp">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\SoundBar.cpp">
+      <Filter>ExLibrary\SJ\UI\SoundBar</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\ScrollUI.cpp">
+      <Filter>ExLibrary\SJ\UI\SoundBar</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\SoundHandle.cpp">
+      <Filter>ExLibrary\SJ\UI\SoundBar</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\AttachUI.cpp">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\NumUI.cpp">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\ContinueButton.cpp">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\ButtonSelector.cpp">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClCompile>
+    <ClCompile Include="BossCollisionManager.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="IHPObject.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectPlayer.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCollisionManager.cpp">
+      <Filter>ExLibrary\DH</Filter>
+    </ClCompile>
+    <ClCompile Include="Tracer.cpp">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingObject.cpp">
+      <Filter>ExLibrary\DH</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFlag.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player2DCollisionManager.cpp">
+      <Filter>ExLibrary\GH</Filter>
+    </ClCompile>
+    <ClCompile Include="TriggerEventSetter.cpp">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClCompile>
+    <ClCompile Include="EdgeDetect.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase3EventManager.cpp">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClCompile>
+    <ClCompile Include="Phase3Character.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\CameraRailPoint.cpp">
+      <Filter>ExLibrary\SJ\RailMoveCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\RailMoveCamera.cpp">
+      <Filter>ExLibrary\SJ\RailMoveCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="RestartButton.cpp">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClCompile>
+    <ClCompile Include="StaffRoll.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Guilty.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="SJ\RailTriggerPoint.cpp">
+      <Filter>ExLibrary\SJ\RailMoveCamera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sampleComponent.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Dotween.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="DotweenTimer.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>ExLibrary\DH\FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="NDComponent.h">
+      <Filter>ExLibrary\DH</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectPool.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowCamera.h">
+      <Filter>ExLibrary\DH</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatorTest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomRotate.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ExLibrary\DH\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClInclude>
+    <ClInclude Include="DotweenTimerPool.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\SettingButton.h">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\TitleButton.h">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\DashCoolTimeUI.h">
+      <Filter>ExLibrary\SJ\UI\CoolTimeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\CoolTimeUI.h">
+      <Filter>ExLibrary\SJ\UI\CoolTimeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\StandoffCoolTimeUI.h">
+      <Filter>ExLibrary\SJ\UI\CoolTimeUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\HPUI.h">
+      <Filter>ExLibrary\SJ\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\BaseUI.h">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\CoverUI.h">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\MovableUI.h">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\SoundBar.h">
+      <Filter>ExLibrary\SJ\UI\SoundBar</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\ScrollUI.h">
+      <Filter>ExLibrary\SJ\UI\SoundBar</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\SoundHandle.h">
+      <Filter>ExLibrary\SJ\UI\SoundBar</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\AttachUI.h">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\NumUI.h">
+      <Filter>ExLibrary\SJ\UI\BaseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\ContinueButton.h">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\ButtonSelector.h">
+      <Filter>ExLibrary\SJ</Filter>
+    </ClInclude>
+    <ClInclude Include="BossCollisionManager.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="IHPObject.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPlayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCollisionManager.h">
+      <Filter>ExLibrary\DH</Filter>
+    </ClInclude>
+    <ClInclude Include="Tracer.h">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingObject.h">
+      <Filter>ExLibrary\DH</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFlag.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player2DCollisionManager.h">
+      <Filter>ExLibrary\GH</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerEventSetter.h">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClInclude>
+    <ClInclude Include="EdgeDetect.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase3EventManager.h">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\CameraRailPoint.h">
+      <Filter>ExLibrary\SJ\RailMoveCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\RailMoveCamera.h">
+      <Filter>ExLibrary\SJ\RailMoveCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="SJ\RailTriggerPoint.h">
+      <Filter>ExLibrary\SJ\RailMoveCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="Phase3Character.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RestartButton.h">
+      <Filter>ExLibrary\UISlave</Filter>
+    </ClInclude>
+    <ClInclude Include="StaffRoll.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Guilty.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

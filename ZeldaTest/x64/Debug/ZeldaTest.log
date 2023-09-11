@@ -1,0 +1,186 @@
+﻿  AnimatorTest.cpp
+  Boss1.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(74,23): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(549,71): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(553,69): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(587,75): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1109,51): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1109,31): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1240,47): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1270,48): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1275,50): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1282,44): warning C4244: '인수': 'const double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1304,45): warning C4244: '인수': 'const double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1381,81): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1425,46): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1425,35): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1450,132): warning C4244: '인수': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1462,121): warning C4244: '인수': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1528,55): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1528,37): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1669,59): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1693,135): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1693,98): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1693,61): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1729,128): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1729,91): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1729,54): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1847,56): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1847,38): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1912,49): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(1826,9): warning C4101: 'playerYpos' :참조되지 않은 지역 변수입니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2080,48): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2080,42): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2085,66): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2086,64): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2284,89): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2289,90): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2301,89): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2306,90): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2318,89): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2322,90): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2333,89): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2338,90): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2348,63): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2349,64): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2713,69): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Boss1.cpp(2793,21): warning C4244: '-=': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BossCollisionManager.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(26,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(34,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(40,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(55,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(63,33): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(86,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(95,35): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(101,35): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(117,34): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(125,33): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\BossCollisionManager.cpp(147,31): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BossFlag.cpp
+  Dotween.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(106,146): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(106,113): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(106,80): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(157,146): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(157,112): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(157,78): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(231,152): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(231,117): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(231,82): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(258,103): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(304,31): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(317,84): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(371,50): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(371,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Dotween.cpp(373,17): warning C4244: '인수': 'const double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  DotweenTimer.cpp
+  DotweenTimerPool.cpp
+  EdgeDetect.cpp
+  EffectPlayer.cpp
+  ExitButton.cpp
+  FloatingObject.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\FloatingObject.cpp(18,21): warning C4244: '=': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  FollowCamera.cpp
+  GameManager.cpp
+  NDComponent.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\NDComponent.cpp(30,70): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\NDComponent.cpp(30,65): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\NDComponent.cpp(30,60): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  ObjectPool.cpp
+  Phase3Character.cpp
+  Phase3EventManager.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Phase3EventManager.cpp(37,23): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Phase3EventManager.cpp(39,24): warning C4305: '초기화 중': 'double'에서 'float'(으)로 잘립니다.
+  Player.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\Player.cpp(720,106): warning C4244: '인수': 'double'에서 'const float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  Player2DCollisionManager.cpp
+  PlayerCollisionManager.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  RandomRotate.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\RandomRotate.cpp(82,82): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\RandomRotate.cpp(82,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RestartButton.cpp
+  AttachUI.cpp
+  BaseUI.cpp
+  ButtonSelector.cpp
+  CameraRailPoint.cpp
+  ContinueButton.cpp
+  CoolTimeUI.cpp
+  CoverUI.cpp
+  DashCoolTimeUI.cpp
+  HPUI.cpp
+  MovableUI.cpp
+  NumUI.cpp
+  RailMoveCamera.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\SJ\RailMoveCamera.cpp(45,39): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\SJ\RailMoveCamera.cpp(96,14): warning C4244: 'return': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\SJ\RailMoveCamera.cpp(107,49): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\SJ\RailMoveCamera.cpp(157,14): warning C4244: 'return': '__int64'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  RailTriggerPoint.cpp
+  ScrollUI.cpp
+  SettingButton.cpp
+  SoundBar.cpp
+  SoundHandle.cpp
+  StandoffCoolTimeUI.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  TitleButton.cpp
+  StaffRoll.cpp
+  StartButton.cpp
+  Tracer.cpp
+  TriggerEventSetter.cpp
+  main.cpp
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(379,57): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(828,64): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(841,58): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(846,32): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(1251,66): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(1838,65): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(1851,59): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(1856,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2266,35): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2526,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2542,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2558,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2574,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2590,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2606,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2662,66): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2774,65): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2774,57): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2861,54): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2875,54): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2909,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2909,62): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2947,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2967,32): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2967,25): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(2988,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3007,25): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3028,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3249,35): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3513,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3529,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3545,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3561,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3577,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3593,33): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3649,66): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3761,65): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3761,57): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3848,54): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3862,54): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3896,68): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3896,62): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3934,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3954,32): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3954,25): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3975,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(3994,25): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(4015,61): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\ZeldaTest\main.cpp(4237,62): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  sampleComponent.cpp
+  코드를 생성하고 있습니다...
+  ZeldaTest.vcxproj -> D:\GA4th4Q_Project\Tree\5_Project\ZeldaEngine\x64\Debug\ZeldaTest.exe

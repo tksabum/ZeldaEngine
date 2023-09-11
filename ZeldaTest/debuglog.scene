@@ -1,0 +1,28 @@
+{
+    "Component": {
+        "ID": 8,
+        "ID_parent": 7,
+        "position": {
+            "Vector3D": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "rotation": {
+            "Vector3D": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "scale": {
+            "Vector3D": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "type": "Transform"
+    }
+}

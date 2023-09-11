@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{448479aa-3f1e-4b2d-9f59-fff5387f9990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc.">
+      <UniqueIdentifier>{d7ca2237-033b-47b0-b429-18a14c22c271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore">
+      <UniqueIdentifier>{98dd3e5b-0ef5-4721-84b6-f4a0ae588c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{afcb1205-33d6-40c5-8a51-ca353d57f4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Serialize">
+      <UniqueIdentifier>{88608522-2ada-4403-957b-b6770490504f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{e2ebc645-dc77-4da3-a6a0-b1332f6f4b64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{95044c7a-e14a-4c2f-801e-154a7171252e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Graphics">
+      <UniqueIdentifier>{d04b8d60-4983-457e-a43a-178b30f5a8f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Scene">
+      <UniqueIdentifier>{8f3c21ec-6ab5-4554-bbab-32c21022559f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{bbb32de8-c064-4023-b1f5-ef698b022643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\IO">
+      <UniqueIdentifier>{6b288a91-7070-4f59-be25-deca84e32e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Entity">
+      <UniqueIdentifier>{cb704942-8d37-4be0-b8de-aa4d817b6450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component">
+      <UniqueIdentifier>{48af4eb2-f455-4c89-9694-f857c6fdd0c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Base">
+      <UniqueIdentifier>{5ebb4656-79f5-4cb1-9ab2-addaffe795fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Basic">
+      <UniqueIdentifier>{54101b33-aa07-4c60-8c73-e4c3f62c3c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Test">
+      <UniqueIdentifier>{f9138fb7-88ab-4713-82b2-909109379298}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Structure">
+      <UniqueIdentifier>{5ee73df2-4004-4108-bee9-9d291bdae6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Collision">
+      <UniqueIdentifier>{8190a544-b557-454a-bd79-334faec45f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Physics">
+      <UniqueIdentifier>{8c51b715-6aa1-485e-bbea-2f49be120083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{98175d84-125d-4630-9e5a-fde7dc9570f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Core">
+      <UniqueIdentifier>{28fa13d7-b78f-4bdf-afa0-f1b3f894b676}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics\Shape">
+      <UniqueIdentifier>{86ffea41-e3e6-4f39-903f-0f53f36370d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Graphics">
+      <UniqueIdentifier>{fefa76d4-15f0-43ff-8ea7-8a12caa7ab44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{73b3a5b3-7651-4108-99ff-bb7b1ff0609f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Physics">
+      <UniqueIdentifier>{e541a6d6-8185-4fc4-a6a9-00aa1d1e7668}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Editor">
+      <UniqueIdentifier>{9fe2607b-47b6-40eb-baf7-25e397eb014f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Graphics\Renderer">
+      <UniqueIdentifier>{784252c1-b44e-4552-b96d-35ed9c8c717b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Graphics\Light">
+      <UniqueIdentifier>{108602e4-419c-403b-9f6c-a9fbe74aebd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KSC">
+      <UniqueIdentifier>{c5689632-ad9e-4813-b0c8-30654a67e598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Graphics\Renderer\UI">
+      <UniqueIdentifier>{f7244d5a-f953-4a71-ac0b-ab2d847f8b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\UI">
+      <UniqueIdentifier>{ad3e6475-61e7-43d7-af51-fe82a682475d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Sound">
+      <UniqueIdentifier>{cf346a44-9fb2-4d22-83e7-770c7c8bd370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Graphics\Animation">
+      <UniqueIdentifier>{7240a466-55f1-49b8-b5dd-9a828b97ceb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Collision\2D">
+      <UniqueIdentifier>{fc9fa30b-1a2d-4440-80c7-1f284aad72e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineCore\Component\Collision\3D">
+      <UniqueIdentifier>{ea3784f1-7460-4b2b-97ac-7c80d893cdaa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeldaEngineAPI.h">
+      <Filter>etc.</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeController.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeldaMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x1.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ISerializable.h">
+      <Filter>Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeldaColor.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="IGraphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsSystem.h">
+      <Filter>EngineCore\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>EngineCore\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>EngineCore\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>EngineCore\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>EngineCore\Component\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>EngineCore\Component\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>EngineCore\Component\Basic</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactory.h">
+      <Filter>EngineCore\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="Serializable.h">
+      <Filter>Serialize</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeConverter.h">
+      <Filter>EngineCore\IO</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>EngineCore\Component\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Octree.h">
+      <Filter>Data Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="CoreSystem.h">
+      <Filter>EngineCore\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineSetting.h">
+      <Filter>EngineCore\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeldaEngine.h">
+      <Filter>EngineCore\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IShape.h">
+      <Filter>Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetrahedron.h">
+      <Filter>Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="FFGraphics.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>EngineCore\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvexPolyhedron.h">
+      <Filter>Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>EngineCore\Component\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsDefine.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderer.h">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshRenderer.h">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SpotLight.h">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="PointLight.h">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="ILight.h">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinnedMeshRenderer.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>KSC</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent2.h">
+      <Filter>EngineCore\Component\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>EngineCore\Component\Graphics\Renderer\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeldaUI.h">
+      <Filter>EngineCore\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem.h">
+      <Filter>EngineCore\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>EngineCore\Component\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>EngineCore\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRenderer.h">
+      <Filter>EngineCore\Component\Graphics\Renderer\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteAnimator.h">
+      <Filter>EngineCore\Component\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationSystem.h">
+      <Filter>EngineCore\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="IAnimator.h">
+      <Filter>EngineCore\Component\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem2D.h">
+      <Filter>EngineCore\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>EngineCore\Component\Collision\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="CapsuleCollider.h">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeCollider.h">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CylinderCollider.h">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollider.h">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="ISprite.h">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleRenderer.h">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeController.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeldaMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x1.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeldaColor.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsSystem.cpp">
+      <Filter>EngineCore\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>EngineCore\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManager.cpp">
+      <Filter>EngineCore\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>EngineCore\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>EngineCore\Component\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>EngineCore\Component\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>EngineCore\Component\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="Serializable.cpp">
+      <Filter>Serialize</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeConverter.cpp">
+      <Filter>EngineCore\IO</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComponent.cpp">
+      <Filter>EngineCore\Component\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Octree.cpp">
+      <Filter>Data Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreSystem.cpp">
+      <Filter>EngineCore\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineSetting.cpp">
+      <Filter>EngineCore\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeldaEngine.cpp">
+      <Filter>EngineCore\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetrahedron.cpp">
+      <Filter>Physics\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="FFGraphics.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>EngineCore\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvexPolyhedron.cpp">
+      <Filter>Physics\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Physics\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="Rigidbody.cpp">
+      <Filter>EngineCore\Component\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4D.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsDefine.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshRenderer.cpp">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SpotLight.cpp">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="PointLight.cpp">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>EngineCore\Component\Graphics\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinnedMeshRenderer.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>KSC</Filter>
+    </ClCompile>
+    <ClCompile Include="TestComponent2.cpp">
+      <Filter>EngineCore\Component\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>EngineCore\Component\Graphics\Renderer\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeldaUI.cpp">
+      <Filter>EngineCore\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem.cpp">
+      <Filter>EngineCore\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>EngineCore\Component\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>EngineCore\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRenderer.cpp">
+      <Filter>EngineCore\Component\Graphics\Renderer\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteAnimator.cpp">
+      <Filter>EngineCore\Component\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationSystem.cpp">
+      <Filter>EngineCore\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem2D.cpp">
+      <Filter>EngineCore\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2D.cpp">
+      <Filter>EngineCore\Component\Collision\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="CapsuleCollider.cpp">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeCollider.cpp">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CylinderCollider.cpp">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>EngineCore\Component\Collision\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleRenderer.cpp">
+      <Filter>EngineCore\Component\Graphics\Renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

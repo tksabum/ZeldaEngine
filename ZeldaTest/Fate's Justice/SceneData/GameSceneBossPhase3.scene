@@ -1,0 +1,1976 @@
+{
+    "SceneManager": {
+        "dontDestroyObjectList": {
+            "size": 0
+        },
+        "gameobjectList": {
+            "0": {
+                "GameObject": {
+                    "ID": 0,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 2,
+                                "ID_gameObject": 0,
+                                "ID_mainAnimator": 7,
+                                "ID_subAnimator": 12,
+                                "ID_thirdAnimator": 17,
+                                "type": "GameManager"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "GameManager",
+                    "transform": {
+                        "Component": {
+                            "ID": 1,
+                            "ID_gameObject": 0,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "1": {
+                "GameObject": {
+                    "ID": 3,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 5,
+                                "ID_gameObject": 3,
+                                "type": "ZeldaUI"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 6,
+                                "ID_gameObject": 3,
+                                "layer": 901,
+                                "materialInfo": {
+                                    "MaterialInfo": {
+                                        "color": {
+                                            "ZeldaColor": {
+                                                "alpha": 1.0,
+                                                "b": 1.0,
+                                                "g": 1.0,
+                                                "r": 1.0
+                                            }
+                                        },
+                                        "floatParams0": 0.0,
+                                        "floatParams1": 0.0,
+                                        "floatParams2": 0.0,
+                                        "floatParams3": 0.0,
+                                        "intParams0": 0,
+                                        "intParams1": 0,
+                                        "intParams2": 0,
+                                        "intParams3": 0,
+                                        "materialName": "UI",
+                                        "shaderFilePath": "..\\Resources\\Shader\\UI.hlsli",
+                                        "texture0": "",
+                                        "texture1": "",
+                                        "texture2": "",
+                                        "texture3": "",
+                                        "vec2Params0": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params1": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params2": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params3": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec4Params0": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params1": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params2": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params3": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "Image"
+                            }
+                        },
+                        "2": {
+                            "Component": {
+                                "ID": 7,
+                                "ID_gameObject": 3,
+                                "fadeInTime": 0.0,
+                                "fadeOutTime": 0.0,
+                                "isEventAnimation": false,
+                                "isLoop": false,
+                                "isRetain": true,
+                                "playSpeed": 1.0,
+                                "playWithAwake": false,
+                                "postDelay": 0.0,
+                                "preDelay": 0.0,
+                                "textureList": {
+                                    "size": 0
+                                },
+                                "type": "SpriteAnimator"
+                            }
+                        },
+                        "size": 3
+                    },
+                    "layerID": 0,
+                    "name": "CoverObject",
+                    "transform": {
+                        "Component": {
+                            "ID": 4,
+                            "ID_gameObject": 3,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1920.0,
+                                    "y": 1080.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "10": {
+                "GameObject": {
+                    "ID": 39,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 41,
+                                "ID_gameObject": 39,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "CubeMaterial_F",
+                                                "shaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "CubeMaterial_F"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cube",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "BackGroud",
+                    "transform": {
+                        "Component": {
+                            "ID": 40,
+                            "ID_gameObject": 39,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "11": {
+                "GameObject": {
+                    "ID": 42,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 44,
+                                "ID_gameObject": 42,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "CubeMaterial_F",
+                                                "shaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "CubeMaterial_F"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cube",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "BackGroud",
+                    "transform": {
+                        "Component": {
+                            "ID": 43,
+                            "ID_gameObject": 42,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "12": {
+                "GameObject": {
+                    "ID": 45,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 47,
+                                "ID_gameObject": 45,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "CubeMaterial_F",
+                                                "shaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "CubeMaterial_F"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cube",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "BackGroud",
+                    "transform": {
+                        "Component": {
+                            "ID": 46,
+                            "ID_gameObject": 45,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "13": {
+                "GameObject": {
+                    "ID": 48,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 50,
+                                "ID_gameObject": 48,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "CubeMaterial_F",
+                                                "shaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "CubeMaterial_F"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cube",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "BackGroud",
+                    "transform": {
+                        "Component": {
+                            "ID": 49,
+                            "ID_gameObject": 48,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "14": {
+                "GameObject": {
+                    "ID": 51,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 53,
+                                "ID_gameObject": 51,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "CubeMaterial_F",
+                                                "shaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "CubeMaterial_F"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cube",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "BackGroud",
+                    "transform": {
+                        "Component": {
+                            "ID": 52,
+                            "ID_gameObject": 51,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "2": {
+                "GameObject": {
+                    "ID": 8,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 10,
+                                "ID_gameObject": 8,
+                                "type": "ZeldaUI"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 11,
+                                "ID_gameObject": 8,
+                                "layer": 900,
+                                "materialInfo": {
+                                    "MaterialInfo": {
+                                        "color": {
+                                            "ZeldaColor": {
+                                                "alpha": 1.0,
+                                                "b": 1.0,
+                                                "g": 1.0,
+                                                "r": 1.0
+                                            }
+                                        },
+                                        "floatParams0": 0.0,
+                                        "floatParams1": 0.0,
+                                        "floatParams2": 0.0,
+                                        "floatParams3": 0.0,
+                                        "intParams0": 0,
+                                        "intParams1": 0,
+                                        "intParams2": 0,
+                                        "intParams3": 0,
+                                        "materialName": "UI",
+                                        "shaderFilePath": "..\\Resources\\Shader\\UI.hlsli",
+                                        "texture0": "",
+                                        "texture1": "",
+                                        "texture2": "",
+                                        "texture3": "",
+                                        "vec2Params0": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params1": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params2": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params3": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec4Params0": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params1": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params2": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params3": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "Image"
+                            }
+                        },
+                        "2": {
+                            "Component": {
+                                "ID": 12,
+                                "ID_gameObject": 8,
+                                "fadeInTime": 0.0,
+                                "fadeOutTime": 0.0,
+                                "isEventAnimation": false,
+                                "isLoop": false,
+                                "isRetain": true,
+                                "playSpeed": 1.0,
+                                "playWithAwake": false,
+                                "postDelay": 0.0,
+                                "preDelay": 0.0,
+                                "textureList": {
+                                    "size": 0
+                                },
+                                "type": "SpriteAnimator"
+                            }
+                        },
+                        "size": 3
+                    },
+                    "layerID": 0,
+                    "name": "CoverObject",
+                    "transform": {
+                        "Component": {
+                            "ID": 9,
+                            "ID_gameObject": 8,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1920.0,
+                                    "y": 1080.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "3": {
+                "GameObject": {
+                    "ID": 13,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 15,
+                                "ID_gameObject": 13,
+                                "type": "ZeldaUI"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 16,
+                                "ID_gameObject": 13,
+                                "layer": 899,
+                                "materialInfo": {
+                                    "MaterialInfo": {
+                                        "color": {
+                                            "ZeldaColor": {
+                                                "alpha": 1.0,
+                                                "b": 1.0,
+                                                "g": 1.0,
+                                                "r": 1.0
+                                            }
+                                        },
+                                        "floatParams0": 0.0,
+                                        "floatParams1": 0.0,
+                                        "floatParams2": 0.0,
+                                        "floatParams3": 0.0,
+                                        "intParams0": 0,
+                                        "intParams1": 0,
+                                        "intParams2": 0,
+                                        "intParams3": 0,
+                                        "materialName": "UI",
+                                        "shaderFilePath": "..\\Resources\\Shader\\UI.hlsli",
+                                        "texture0": "",
+                                        "texture1": "",
+                                        "texture2": "",
+                                        "texture3": "",
+                                        "vec2Params0": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params1": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params2": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec2Params3": {
+                                            "Vector2D": {
+                                                "x": 0.0,
+                                                "y": 0.0
+                                            }
+                                        },
+                                        "vec4Params0": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params1": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params2": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        },
+                                        "vec4Params3": {
+                                            "Vector4D": {
+                                                "w": 0.0,
+                                                "x": 0.0,
+                                                "y": 0.0,
+                                                "z": 0.0
+                                            }
+                                        }
+                                    }
+                                },
+                                "type": "Image"
+                            }
+                        },
+                        "2": {
+                            "Component": {
+                                "ID": 17,
+                                "ID_gameObject": 13,
+                                "fadeInTime": 0.0,
+                                "fadeOutTime": 0.0,
+                                "isEventAnimation": false,
+                                "isLoop": false,
+                                "isRetain": true,
+                                "playSpeed": 1.0,
+                                "playWithAwake": false,
+                                "postDelay": 0.0,
+                                "preDelay": 0.0,
+                                "textureList": {
+                                    "size": 0
+                                },
+                                "type": "SpriteAnimator"
+                            }
+                        },
+                        "size": 3
+                    },
+                    "layerID": 0,
+                    "name": "CoverObject",
+                    "transform": {
+                        "Component": {
+                            "ID": 14,
+                            "ID_gameObject": 13,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1920.0,
+                                    "y": 1080.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "4": {
+                "GameObject": {
+                    "ID": 18,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 20,
+                                "ID_gameObject": 18,
+                                "cameraFar": 1000.0,
+                                "cameraNear": 1.0,
+                                "cameraScale": 1.0,
+                                "fieldOfView": 0.26179900765419006,
+                                "type": "Camera"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 21,
+                                "ID_gameObject": 18,
+                                "moveSpeed": 50.0,
+                                "rotateSpeed": 0.7850000262260437,
+                                "testVectorPtr": {
+                                    "size": 0
+                                },
+                                "testVectorPtr0": {
+                                    "size": 0
+                                },
+                                "testVectorSerValue": {
+                                    "size": 0
+                                },
+                                "testVectorSerValue0": {
+                                    "size": 0
+                                },
+                                "testVectorValue": {
+                                    "size": 0
+                                },
+                                "testVectorValue0": {
+                                    "size": 0
+                                },
+                                "type": "TestComponent"
+                            }
+                        },
+                        "size": 2
+                    },
+                    "layerID": 0,
+                    "name": "MainCamera",
+                    "transform": {
+                        "Component": {
+                            "ID": 19,
+                            "ID_gameObject": 18,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 10.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "5": {
+                "GameObject": {
+                    "ID": 22,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 24,
+                                "ID_gameObject": 22,
+                                "type": "DirectionalLight"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "DirectionalLight",
+                    "transform": {
+                        "Component": {
+                            "ID": 23,
+                            "ID_gameObject": 22,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 0.7912400364875793,
+                                    "x": 0.5540323853492737,
+                                    "y": 0.2120121419429779,
+                                    "z": -0.1484525203704834
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "6": {
+                "GameObject": {
+                    "ID": 25,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 27,
+                                "ID_gameManager": 2,
+                                "ID_gameObject": 25,
+                                "animationPlaySpeed": 15.0,
+                                "bossAttackCycle": 1.0,
+                                "bossFirstAttackCount": 8,
+                                "bossFirstAttackCycle": 0.10000000149011612,
+                                "centerRadius": 80.0,
+                                "centerRadiusDecrease": 40.0,
+                                "eventDelay": 3.0,
+                                "playerHandicap": 4.0,
+                                "playerHandicapDecrease": 0.20000000298023224,
+                                "playerHandicapMin": 2.0,
+                                "playerHitRate": 0.30000001192092896,
+                                "playerHitRateIncrease": 0.019999999552965164,
+                                "playerHitRateMax": 1.0,
+                                "playerNoHandicapCount": 3,
+                                "type": "Phase3EventManager"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "Phase3EventManager",
+                    "transform": {
+                        "Component": {
+                            "ID": 26,
+                            "ID_gameObject": 25,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "7": {
+                "GameObject": {
+                    "ID": 28,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 30,
+                                "ID_gameObject": 28,
+                                "ID_renderer": 56,
+                                "type": "Phase3Character"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 31,
+                                "ID_gameObject": 28,
+                                "animationMap": {
+                                    "0": {
+                                        "animationClipDuration": 0.2,
+                                        "animationClipFrameCount": 12,
+                                        "animationClipLoop": true,
+                                        "animationClipName": "root|Phase3_Boss",
+                                        "animationName": "root|Phase3_Boss"
+                                    },
+                                    "size": 1
+                                },
+                                "currentAnimation": "root|Phase3_Boss",
+                                "meshName": "",
+                                "type": "Animator"
+                            }
+                        },
+                        "size": 2
+                    },
+                    "layerID": 0,
+                    "name": "Boss",
+                    "transform": {
+                        "Component": {
+                            "ID": 29,
+                            "ID_gameObject": 28,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "8": {
+                "GameObject": {
+                    "ID": 32,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 34,
+                                "ID_gameObject": 32,
+                                "ID_renderer": 59,
+                                "type": "Phase3Character"
+                            }
+                        },
+                        "1": {
+                            "Component": {
+                                "ID": 35,
+                                "ID_gameObject": 32,
+                                "animationMap": {
+                                    "0": {
+                                        "animationClipDuration": 0.23333333333333334,
+                                        "animationClipFrameCount": 7,
+                                        "animationClipLoop": true,
+                                        "animationClipName": "Armature|Phase3_Player",
+                                        "animationName": "Armature|Phase3_Player"
+                                    },
+                                    "size": 1
+                                },
+                                "currentAnimation": "Armature|Phase3_Player",
+                                "meshName": "",
+                                "type": "Animator"
+                            }
+                        },
+                        "size": 2
+                    },
+                    "layerID": 0,
+                    "name": "Player",
+                    "transform": {
+                        "Component": {
+                            "ID": 33,
+                            "ID_gameObject": 32,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "9": {
+                "GameObject": {
+                    "ID": 36,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 38,
+                                "ID_gameObject": 36,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "CubeMaterial_F",
+                                                "shaderFilePath": "..\\Resources\\Shader\\forward.hlsli",
+                                                "texture0": "",
+                                                "texture1": "",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "CubeMaterial_F"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "Cube",
+                                "type": "MeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "BackGroud",
+                    "transform": {
+                        "Component": {
+                            "ID": 37,
+                            "ID_gameObject": 36,
+                            "ID_parent": -1,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": 1.0,
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "size": 15
+        },
+        "mainCameraID": 20,
+        "sceneName": "GameSceneBossPhase3",
+        "subObjectList": {
+            "0": {
+                "GameObject": {
+                    "ID": 54,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 56,
+                                "ID_gameObject": 54,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "boss_t_lo.002",
+                                                "shaderFilePath": "..\\Resources\\Shader\\boss.hlsli",
+                                                "texture0": "..\\Resources\\FBX\\Boss\\Boss.fbm\\boss_t_lo_Diffuse.png",
+                                                "texture1": "..\\Resources\\FBX\\Boss\\Boss.fbm\\boss_t_lo_Normal.png",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "boss_t_lo.002"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "bosschar",
+                                "type": "SkinnedMeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "bosschar",
+                    "transform": {
+                        "Component": {
+                            "ID": 55,
+                            "ID_gameObject": 54,
+                            "ID_parent": 29,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": -4.371138828673793e-08,
+                                    "x": -0.0,
+                                    "y": 1.0,
+                                    "z": -0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "1": {
+                "GameObject": {
+                    "ID": 57,
+                    "active": true,
+                    "componentList": {
+                        "0": {
+                            "Component": {
+                                "ID": 59,
+                                "ID_gameObject": 57,
+                                "materialInfoList": {
+                                    "0": {
+                                        "materialInfo": {
+                                            "MaterialInfo": {
+                                                "color": {
+                                                    "ZeldaColor": {
+                                                        "alpha": 1.0,
+                                                        "b": 1.0,
+                                                        "g": 1.0,
+                                                        "r": 1.0
+                                                    }
+                                                },
+                                                "floatParams0": 0.0,
+                                                "floatParams1": 0.0,
+                                                "floatParams2": 0.0,
+                                                "floatParams3": 0.0,
+                                                "intParams0": 0,
+                                                "intParams1": 0,
+                                                "intParams2": 0,
+                                                "intParams3": 0,
+                                                "materialName": "mainchar",
+                                                "shaderFilePath": "..\\Resources\\Shader\\player.hlsli",
+                                                "texture0": "..\\Resources\\FBX\\Player\\Player.fbm\\mainchar.001_Diffuse.png",
+                                                "texture1": "..\\Resources\\FBX\\Player\\Player.fbm\\mainchar.001_Normal.png",
+                                                "texture2": "",
+                                                "texture3": "",
+                                                "vec2Params0": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params1": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params2": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec2Params3": {
+                                                    "Vector2D": {
+                                                        "x": 0.0,
+                                                        "y": 0.0
+                                                    }
+                                                },
+                                                "vec4Params0": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params1": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params2": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                },
+                                                "vec4Params3": {
+                                                    "Vector4D": {
+                                                        "w": 0.0,
+                                                        "x": 0.0,
+                                                        "y": 0.0,
+                                                        "z": 0.0
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "materialName": "mainchar"
+                                    },
+                                    "size": 1
+                                },
+                                "meshName": "mainchar.001",
+                                "type": "SkinnedMeshRenderer"
+                            }
+                        },
+                        "size": 1
+                    },
+                    "layerID": 0,
+                    "name": "mainchar.001",
+                    "transform": {
+                        "Component": {
+                            "ID": 58,
+                            "ID_gameObject": 57,
+                            "ID_parent": 33,
+                            "position": {
+                                "Vector3D": {
+                                    "x": 0.0,
+                                    "y": 0.0,
+                                    "z": 0.0
+                                }
+                            },
+                            "rotation": {
+                                "Quaternion": {
+                                    "w": -4.371138828673793e-08,
+                                    "x": -0.0,
+                                    "y": 1.0,
+                                    "z": -0.0
+                                }
+                            },
+                            "scale": {
+                                "Vector3D": {
+                                    "x": 1.0,
+                                    "y": 1.0,
+                                    "z": 1.0
+                                }
+                            },
+                            "type": "Transform",
+                            "uiRotation": 0.0
+                        }
+                    }
+                }
+            },
+            "size": 2
+        }
+    }
+}

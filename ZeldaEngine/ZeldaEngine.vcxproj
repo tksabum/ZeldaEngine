@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{92b00495-56f4-4fbe-981b-8bda01d2cb02}</ProjectGuid>
+    <RootNamespace>ZeldaEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;ZELDAENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;ZELDAENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_ZELDA_ENGINE_TIMER_DEBUG_MODE;_DEBUG;ZELDAENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\inc;$(SolutionDir)json-develop\include;$(SolutionDir)FFGraphicsEngine\inc;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\lib;$(SolutionDir)Output;$(SolutionDir)Library\Lib\DirectXTex;$(SolutionDir)Library\Lib\FBX\debug;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;zlib-md.lib;libxml2-md.lib;libfbxsdk-md.lib;DirectXTex_debug.lib;FFGraphicsEngine.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;ZELDAENGINE_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\inc;$(SolutionDir)json-develop\include;$(SolutionDir)FFGraphicsEngine\inc;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <AdditionalLibraryDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\lib;$(SolutionDir)Output;$(SolutionDir)Library\Lib\DirectXTex;$(SolutionDir)Library\Lib\FBX\release;</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;zlib-md.lib;libxml2-md.lib;libfbxsdk-md.lib;DirectXTex_release.lib;FFGraphicsEngine_Release.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimationSystem.h" />
+    <ClInclude Include="Animator.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CapsuleCollider.h" />
+    <ClInclude Include="Collider.h" />
+    <ClInclude Include="Collider2D.h" />
+    <ClInclude Include="CylinderCollider.h" />
+    <ClInclude Include="IAnimator.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="ISprite.h" />
+    <ClInclude Include="Matrix3x3.h" />
+    <ClInclude Include="ParticleRenderer.h" />
+    <ClInclude Include="PhysicsSystem2D.h" />
+    <ClInclude Include="SkinnedMeshRenderer.h" />
+    <ClInclude Include="SoundManager.h" />
+    <ClInclude Include="SphereCollider.h" />
+    <ClInclude Include="SpriteAnimator.h" />
+    <ClInclude Include="SpriteRenderer.h" />
+    <ClInclude Include="TestComponent2.h" />
+    <ClInclude Include="UISystem.h" />
+    <ClInclude Include="ZeldaColor.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="ComponentFactory.h" />
+    <ClInclude Include="ConvexPolyhedron.h" />
+    <ClInclude Include="CoreSystem.h" />
+    <ClInclude Include="CubeCollider.h" />
+    <ClInclude Include="DirectionalLight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="EngineSetting.h" />
+    <ClInclude Include="FFGraphics.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GraphicsDefine.h" />
+    <ClInclude Include="GraphicsSystem.h" />
+    <ClInclude Include="ICollider.h" />
+    <ClInclude Include="IGraphics.h" />
+    <ClInclude Include="ILight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Input.h" />
+    <ClInclude Include="IOManager.h" />
+    <ClInclude Include="IRenderer.h" />
+    <ClInclude Include="ISerializable.h" />
+    <ClInclude Include="IShape.h" />
+    <ClInclude Include="Light.h" />
+    <ClInclude Include="MeshRenderer.h" />
+    <ClInclude Include="Octree.h" />
+    <ClInclude Include="PhysicsSystem.h" />
+    <ClInclude Include="PointLight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Rigidbody.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="SpotLight.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h" />
+    <ClInclude Include="Tetrahedron.h" />
+    <ClInclude Include="TypeConverter.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Serializable.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="UIRenderer.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Vector4D.h" />
+    <ClInclude Include="ZeldaMath.h" />
+    <ClInclude Include="Matrix4x1.h" />
+    <ClInclude Include="Matrix4x4.h" />
+    <ClInclude Include="Vector3D.h" />
+    <ClInclude Include="ZeldaEngine.h" />
+    <ClInclude Include="ZeldaEngineAPI.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="TimeController.h" />
+    <ClInclude Include="ZeldaUI.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimationSystem.cpp" />
+    <ClCompile Include="Animator.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CapsuleCollider.cpp" />
+    <ClCompile Include="Collider.cpp" />
+    <ClCompile Include="Collider2D.cpp" />
+    <ClCompile Include="CylinderCollider.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="Matrix3x3.cpp" />
+    <ClCompile Include="ParticleRenderer.cpp" />
+    <ClCompile Include="PhysicsSystem2D.cpp" />
+    <ClCompile Include="SkinnedMeshRenderer.cpp" />
+    <ClCompile Include="SoundManager.cpp" />
+    <ClCompile Include="SphereCollider.cpp" />
+    <ClCompile Include="SpriteAnimator.cpp" />
+    <ClCompile Include="SpriteRenderer.cpp" />
+    <ClCompile Include="TestComponent2.cpp" />
+    <ClCompile Include="UISystem.cpp" />
+    <ClCompile Include="ZeldaColor.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="ConvexPolyhedron.cpp" />
+    <ClCompile Include="CoreSystem.cpp" />
+    <ClCompile Include="CubeCollider.cpp" />
+    <ClCompile Include="DirectionalLight.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="EngineSetting.cpp" />
+    <ClCompile Include="FFGraphics.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GraphicsDefine.cpp" />
+    <ClCompile Include="GraphicsSystem.cpp" />
+    <ClCompile Include="Input.cpp" />
+    <ClCompile Include="IOManager.cpp" />
+    <ClCompile Include="Light.cpp" />
+    <ClCompile Include="MeshRenderer.cpp" />
+    <ClCompile Include="Octree.cpp" />
+    <ClCompile Include="PhysicsSystem.cpp" />
+    <ClCompile Include="PointLight.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Rigidbody.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="SpotLight.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="TestComponent.cpp" />
+    <ClCompile Include="Tetrahedron.cpp" />
+    <ClCompile Include="TypeConverter.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Serializable.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="UIRenderer.cpp" />
+    <ClCompile Include="Vector2D.cpp" />
+    <ClCompile Include="Vector4D.cpp" />
+    <ClCompile Include="ZeldaEngine.cpp" />
+    <ClCompile Include="ZeldaMath.cpp" />
+    <ClCompile Include="Matrix4x1.cpp" />
+    <ClCompile Include="Matrix4x4.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TimeController.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
+    <ClCompile Include="ZeldaUI.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

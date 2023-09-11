@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{35d11213-eb5f-416c-888f-8838c0fdb6cf}</ProjectGuid>
+    <RootNamespace>ZeldaTest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\inc;$(SolutionDir)ZeldaEngine;$(SolutionDir)json-develop\include;$(SolutionDir)FFGraphicsEngine\inc;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\lib;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\inc;$(SolutionDir)ZeldaEngine;$(SolutionDir)json-develop\include;$(SolutionDir)FFGraphicsEngine\inc;</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)ZeldaEngine\fmod_lowlevel\lib;$(SolutionDir)$(Platform)\$(Configuration)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatorTest.cpp" />
+    <ClCompile Include="Boss1.cpp" />
+    <ClCompile Include="BossCollisionManager.cpp" />
+    <ClCompile Include="BossFlag.cpp" />
+    <ClCompile Include="Dotween.cpp" />
+    <ClCompile Include="DotweenTimer.cpp" />
+    <ClCompile Include="DotweenTimerPool.cpp" />
+    <ClCompile Include="Easing.cpp" />
+    <ClCompile Include="EdgeDetect.cpp" />
+    <ClCompile Include="EffectPlayer.cpp" />
+    <ClCompile Include="ExitButton.cpp" />
+    <ClCompile Include="FloatingObject.cpp" />
+    <ClCompile Include="FollowCamera.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Guilty.cpp" />
+    <ClCompile Include="IHPObject.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NDComponent.cpp" />
+    <ClCompile Include="ObjectPool.cpp" />
+    <ClCompile Include="Phase3Character.cpp" />
+    <ClCompile Include="Phase3EventManager.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Player2DCollisionManager.cpp" />
+    <ClCompile Include="PlayerCollisionManager.cpp" />
+    <ClCompile Include="RandomRotate.cpp" />
+    <ClCompile Include="RestartButton.cpp" />
+    <ClCompile Include="sampleComponent.cpp" />
+    <ClCompile Include="SJ\AttachUI.cpp" />
+    <ClCompile Include="SJ\BaseUI.cpp" />
+    <ClCompile Include="SJ\ButtonSelector.cpp" />
+    <ClCompile Include="SJ\CameraRailPoint.cpp" />
+    <ClCompile Include="SJ\ContinueButton.cpp" />
+    <ClCompile Include="SJ\CoolTimeUI.cpp" />
+    <ClCompile Include="SJ\CoverUI.cpp" />
+    <ClCompile Include="SJ\DashCoolTimeUI.cpp" />
+    <ClCompile Include="SJ\HPUI.cpp" />
+    <ClCompile Include="SJ\MovableUI.cpp" />
+    <ClCompile Include="SJ\NumUI.cpp" />
+    <ClCompile Include="SJ\RailMoveCamera.cpp" />
+    <ClCompile Include="SJ\RailTriggerPoint.cpp" />
+    <ClCompile Include="SJ\ScrollUI.cpp" />
+    <ClCompile Include="SJ\SettingButton.cpp" />
+    <ClCompile Include="SJ\SoundBar.cpp" />
+    <ClCompile Include="SJ\SoundHandle.cpp" />
+    <ClCompile Include="SJ\StandoffCoolTimeUI.cpp" />
+    <ClCompile Include="SJ\TitleButton.cpp" />
+    <ClCompile Include="StaffRoll.cpp" />
+    <ClCompile Include="StartButton.cpp" />
+    <ClCompile Include="Tracer.cpp" />
+    <ClCompile Include="TriggerEventSetter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatorTest.h" />
+    <ClInclude Include="Boss1.h" />
+    <ClInclude Include="BossCollisionManager.h" />
+    <ClInclude Include="BossFlag.h" />
+    <ClInclude Include="Dotween.h" />
+    <ClInclude Include="DotweenTimer.h" />
+    <ClInclude Include="DotweenTimerPool.h" />
+    <ClInclude Include="Easing.h" />
+    <ClInclude Include="EdgeDetect.h" />
+    <ClInclude Include="EffectPlayer.h" />
+    <ClInclude Include="ExitButton.h" />
+    <ClInclude Include="FloatingObject.h" />
+    <ClInclude Include="FollowCamera.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Guilty.h" />
+    <ClInclude Include="IHPObject.h" />
+    <ClInclude Include="NDComponent.h" />
+    <ClInclude Include="ObjectPool.h" />
+    <ClInclude Include="Phase3Character.h" />
+    <ClInclude Include="Phase3EventManager.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Player2DCollisionManager.h" />
+    <ClInclude Include="PlayerCollisionManager.h" />
+    <ClInclude Include="RandomRotate.h" />
+    <ClInclude Include="RestartButton.h" />
+    <ClInclude Include="sampleComponent.h" />
+    <ClInclude Include="SJ\AttachUI.h" />
+    <ClInclude Include="SJ\BaseUI.h" />
+    <ClInclude Include="SJ\ButtonSelector.h" />
+    <ClInclude Include="SJ\CameraRailPoint.h" />
+    <ClInclude Include="SJ\ContinueButton.h" />
+    <ClInclude Include="SJ\CoolTimeUI.h" />
+    <ClInclude Include="SJ\CoverUI.h" />
+    <ClInclude Include="SJ\DashCoolTimeUI.h" />
+    <ClInclude Include="SJ\HPUI.h" />
+    <ClInclude Include="SJ\MovableUI.h" />
+    <ClInclude Include="SJ\NumUI.h" />
+    <ClInclude Include="SJ\RailMoveCamera.h" />
+    <ClInclude Include="SJ\RailTriggerPoint.h" />
+    <ClInclude Include="SJ\ScrollUI.h" />
+    <ClInclude Include="SJ\SettingButton.h" />
+    <ClInclude Include="SJ\SoundBar.h" />
+    <ClInclude Include="SJ\SoundHandle.h" />
+    <ClInclude Include="SJ\StandoffCoolTimeUI.h" />
+    <ClInclude Include="SJ\TitleButton.h" />
+    <ClInclude Include="StaffRoll.h" />
+    <ClInclude Include="StartButton.h" />
+    <ClInclude Include="Tracer.h" />
+    <ClInclude Include="TriggerEventSetter.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
